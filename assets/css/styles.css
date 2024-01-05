@@ -41,6 +41,24 @@ body {
   color: #8c8c8c;
   line-height: 26px;
 }
+
+.infrastructure {
+  height: 200px;
+  position: relative;
+  /* border: 3px solid green; */
+}
+
+.infra-center {
+  margin: 0;
+  position: absolute;
+  width: 79%;
+  top: 50%;
+  left: 60%;
+  font-size: 22px;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
 h1,
 h2,
 h3,
@@ -272,11 +290,11 @@ a:hover {
 
 .main-menu nav ul li a {
   display: block;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 700;
   color: #034d22;
   text-transform: uppercase;
-  padding: 43px 17px;
+  padding: 43px 16px;
 }
 
 .sticky-header .main-menu nav > ul > li > a {
@@ -405,7 +423,7 @@ a:hover {
 }
 .hb-right ul li {
   font-size: 18px;
-  color: #fff;
+  color: #034d22;
   cursor: pointer;
   text-align: right;
 }
@@ -1018,6 +1036,7 @@ img.title-top-shape {
 /*============================================
     END Event Area
 *=============================================*/
+
 
 /*============================================
     1.9 Testimonial Area
