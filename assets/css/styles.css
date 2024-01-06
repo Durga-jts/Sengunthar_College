@@ -48,15 +48,30 @@ body {
   /* border: 3px solid green; */
 }
 
-.infra-center {
+.infrastructure-row {
   margin: 0;
   position: absolute;
-  width: 79%;
+  width: 80%;
   top: 50%;
   left: 60%;
-  font-size: 22px;
+  font-size: 25px;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+}
+
+.infrastructure-text{
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.infrastructure-text:hover{
+  transform: scale(1.05);
+  border: 1px solid;
+  width:45%;
+}
+
+.btn-events{
+  background-color: #fc9928;
+  color: #fff;
 }
 
 h1,
@@ -135,7 +150,7 @@ a {
 }
 a:focus,
 a:hover {
-  color: #fc9928 !important;
+  color: #fff !important;
 }
 *::-moz-selection {
   background: #fc9928;
