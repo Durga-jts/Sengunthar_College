@@ -46,6 +46,7 @@ body {
   height: 200px;
   position: relative;
   /* border: 3px solid green; */
+  background-color: #14171d;
 }
 
 .infrastructure-row {
@@ -62,6 +63,7 @@ body {
 .infrastructure-text{
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.3s ease;
+  color: #fff;
 }
 .infrastructure-text:hover{
   transform: scale(1.05);
@@ -255,6 +257,10 @@ a:hover {
   margin-left: 10px;
 }
 
+.ht-social ul li a:hover{
+  color:#000 ;
+}
+
 /*============================================
     END Header Top
 *=============================================*/
@@ -316,9 +322,12 @@ a:hover {
   padding: 38px 17px;
 }
 
-.main-menu nav ul li > a:hover,
 .main-menu nav ul li.active > a {
   color: #fc9928;
+}
+
+.main-menu nav ul li > a:hover {
+  color: #fc9928 !important;
 }
 
 /*submenu*/
@@ -768,6 +777,7 @@ a.expand-video:hover {
 }
 .course-thumb {
   position: relative;
+  height: 1000px;
 }
 
 .cs-price {
@@ -802,7 +812,7 @@ a.expand-video:hover {
   height:2.5em;
   letter-spacing: 0;
   line-height: 18px;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
 }
 .course-meta-text h4 a:hover {
   color: #fc9928;
@@ -916,7 +926,7 @@ img.title-top-shape {
 }
 
 .sec-style-two h2 {
-  color: #fff;
+  color: #fc9928;
 }
 
 .sec-style-two > span {
@@ -1058,7 +1068,7 @@ img.title-top-shape {
 *=============================================*/
 
 .testimonial-area {
-  background: #14171d;
+  background: #ffffff;
   position: relative;
   z-index: 1;
 }
@@ -1071,7 +1081,7 @@ img.tst-bg {
 }
 .testimonial-content h3 {
   font-weight: 700;
-  color: #ffffff;
+  color: #14171d;
   letter-spacing: 0;
   font-style: italic;
   line-height: 46px;
@@ -1079,11 +1089,11 @@ img.tst-bg {
 }
 .testimonial-content h4 {
   font-weight: 400;
-  color: #ffffff;
+  color: #14171d;
 }
 .testimonial-content > span {
   font-size: 14px;
-  color: #ffffff;
+  color: #14171d;
   letter-spacing: 0;
   font-style: italic;
 }
@@ -1809,6 +1819,10 @@ span.post-date i {
   margin-bottom: 25px;
 }
 
+.mpharm{
+  margin-bottom: 30px;
+
+}
 .csd-hv-info {
   position: absolute;
   left: 0;
@@ -1829,7 +1843,7 @@ span.post-date i {
 }
 
 .csd-hv-info .course-meta-details {
-  border-top: 0px;
+  border-top: auto;
   padding-top: 0px;
 }
 .csd-hv-info .course-meta-details li span {
@@ -1851,7 +1865,7 @@ span.post-date i {
 
 .course-details .course-meta-title {
   display: block;
-  margin-bottom: 39px;
+  /* margin-bottom: 39px; */
 }
 
 .csd-hv-info ul.course-meta-stats li {
