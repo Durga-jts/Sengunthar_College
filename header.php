@@ -17,8 +17,8 @@
     <!-- modernizr css -->
     <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
    
-   <!-- header area start -->
-   <header id="header">
+<!-- header area start -->
+<header id="header">
         <!-- header top area start -->
         <div class="header-top">
             <div class="container-fluid">
@@ -52,7 +52,7 @@
                 <div class="header-bottom-inner">
                     <div class="row align-items-center">
                         <div class="col-md-1 col-sm-9">
-                            <div class="logo">
+                            <div class="logo" style="margin-left: -7px;">
                                 <a href="index.html" style="width:145px;"><img src="assets/images/logo1.png" alt="logo"></a>
                             </div>
                         </div>
@@ -60,9 +60,9 @@
                             <div class="main-menu">
                                 <nav>
                                     <ul id="m_menu_active">
-                                        <li class="active"><a href="index.html">Home</a></li>
-                                        <li><a href="about-us.html">About College</a></li>
-                                        <li><a href="#">Academic </a></li>
+                                        <li class="active"><a href="index.php">Home</a></li>
+                                        <li><a href="about-us.php">About College</a></li>
+                                        <li><a href="academic.php">Academic </a></li>
                                         <li><a href="#">Facilities </a></li>
                                         <li><a href="#">Admission </a>
                                             <!-- <ul class="submenu">
@@ -82,16 +82,16 @@
                                 </nav>
                             </div>
                         </div>
-                        <div class="col-md-1 logo">
-                            <a href="index.html" style="width:145px;"><img src="assets/images/vaarahi-logo.jpeg" alt="logo" class="ml-4"></a>
+                        <div class="col-md-1 logo ml-5">
+                            <a href="index.html" style="width:145px;"><img src="assets/images/iso.jpeg" alt="logo" class="ml-2"></a>
                         </div>
-                        <div class="col-md-1 col-sm-3">
+                        <!-- <div class="col-md-1 col-sm-3">
                             <div class="hb-right w-25">
                                 <ul> 
                                     <li class="search_btn"><i class="fa fa-search"></i></li>
                                 </ul>
                             </div>
-                        </div>
+                        </div> -->
                         <!-- <div class="col-12 d-block d-lg-none">
                             <div id="mobile_menu"></div>
                         </div> -->
@@ -101,3 +101,13 @@
         </div>
         <!-- header bottom area end -->
     </header>
+     <!-- jquery latest version -->
+    <script src="assets/js/vendor/jquery-2.2.4.min.js"></script>
+    <!-- bootstrap 4 js -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- others plugins -->
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/jquery.slicknav.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/scripts.js"></script>

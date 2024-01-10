@@ -36,9 +36,9 @@ Description: Responsive Education HTML5 Template
 *=============================================*/
 
 body {
-  font-family: "Muli", sans-serif;
+  font-family: "Fira Sans", sans-serif;
   font-size: 16px;
-  color: #8c8c8c;
+  color: #000000;   /*8c8c8c*/
   line-height: 26px;
 }
 
@@ -122,6 +122,111 @@ body {
 .card-border{
   border: 1px solid;
 }
+
+.img-fluid:hover{
+  /* transform: scale(1.05); */
+  transform: rotateY(360deg); 
+    transition: transform 0.5s ease; 
+}
+
+.course-details:hover{
+  cursor: pointer;
+}
+/* Activites and events start */
+.img-gallery {
+  width: 80%;
+  margin: 100px auto 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 30px;
+  margin-bottom: 40px;
+}
+
+.img-gallery img {
+  width: 100%;
+  height: 80%;
+  cursor: pointer;
+}
+
+.img-gallery img:hover {
+  transform: scale(1.2);
+  border-radius: 20px;
+  box-shadow: 0 32px 75px rgba(68, 77, 136, 0.2);
+
+}
+
+.full-img {
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.full-img img {
+  width: 90%;
+  max-width: 500px;
+}
+
+.full-img span {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.img-gallery p {
+  font-family: sans-serif;
+  margin-top: 3px;
+  width: 100%;
+  font-weight: bold;
+
+  /* padding: 10%; */
+}
+/* Activities and events end */
+
+
+/*  ACADEMICS*/
+.table_class th{
+  color:#fc9928;
+  padding:10px;
+  background-color: #f3f3f3;
+  border: 1px solid #fc9928;
+  text-align: left;
+}
+
+.widget-tags li {
+  display: inline-block;
+  padding:10px;
+}
+
+
+.widget-tags li a {
+  display: block;
+  font-size: 15px;
+  font-weight: 400;
+  background: #f0efef;
+  padding: 9px 17px;
+  border-radius: 33px;
+  letter-spacing: 0;
+  margin-bottom: 8px;
+}
+
+
+.widget-tags li a:hover {
+  background: #fff;
+  color: #fc9928 !important;
+}
+/* ACADEMICS END HEREE */
+
+
 h1,
 h2,
 h3,
@@ -131,7 +236,7 @@ h6 {
   margin: 0;
   font-weight: 700;
   color: #252525;
-  font-family: "Roboto Slab", serif;
+  font-family: "Fira Sans", sans-serif;
 }
 h1 a,
 h2 a,
@@ -198,7 +303,7 @@ a {
 }
 a:focus,
 a:hover {
-  color: #fff !important;
+  color: #fc9928 !important;
 }
 *::-moz-selection {
   background: #fc9928;
@@ -1229,7 +1334,7 @@ img.tst-bg {
 .address {
   margin-bottom: 15px;
 }
-.address h6 {
+.address h6, .address  h4 {
  
   font-weight: 400;
   color: #fc9928;

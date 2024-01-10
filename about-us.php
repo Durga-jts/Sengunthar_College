@@ -82,7 +82,7 @@
                 <div class="col-lg-6">
                     <div class="abt-right-thumb">
                         <div class="abt-rt-inner">
-                            <a class="expand-video" href="https://www.youtube.com/watch?v=YZWdIG7K8fE"><i class="fa fa-play"></i></a>
+                            <img src="assets/images/sengunthar_clg2.jpg">
                         </div>
                     </div>
                 </div>
@@ -96,135 +96,48 @@
 <div class="vision-mission-area ptb--120">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-6">
-                <div class="vision-content">
-                    <div class="section-title">
-                        <span class="text-uppercase">vision & mission</span>
-                        <h2>Our Vision</h2>
+            <!-- Vision Card -->
+            <div class="col-md-2">
+                <img src="assets\images\vision.PNG" alt="image 1" style="width:100%;">
+            </div>
+            <div class="col-md-10">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="section-title">
+                            <span class="text-uppercase">Vision</span>
+                            <h2>Our Vision</h2>
+                        </div>
+                        <p>Our vision is to be recognized as one of the premier institutes in Pharmacy Education, Research, and Pharmacy Practice at both the National and International levels. We strive to create an educational ecosystem that not only imparts knowledge but also nurtures a passion for continuous learning and innovation. At Senghundhar College of Pharmacy, our commitment to the growth and success of our students is unwavering. The constant reviews, personalized attention, and timely counseling provided by our management, principal, and faculty members ensure that each student has the support needed to overcome challenges and achieve their highest potential. Our institution takes pride in producing graduates who, like inestimable buds, spread fragrance throughout the pharmaceutical world.</p>
                     </div>
-                    <p>Our vision is to be recognized as one of the premier institutes in Pharmacy Education, Research, and Pharmacy Practice at both the National and International levels. We strive to create an educational ecosystem that not only imparts knowledge but also nurtures a passion for continuous learning and innovation.
-                        At Senghundhar College of Pharmacy, our commitment to the growth and success of our students is unwavering. The constant reviews, personalized attention, and timely counseling provided by our management, principal, and faculty members ensure that each student has the support needed to overcome challenges and achieve their highest potential. Our institution takes pride in producing graduates who, like inestimable buds, spread fragrance throughout the pharmaceutical world.
-                        </p>
+                </div>
+            </div>
+        </div>
 
-                    <div class="section-title mt-4">
-                        <h2>Our Mission</h2>
+            <!-- Mission Card -->
+            <div class="row mt-3">
+                <div class="col-md-2">
+                    <img src="assets\images\mission.PNG" alt="image 1" style="width:100%;">
+                </div>
+                <div class="col-md-10">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="section-title mt-4">
+                                <h2>Our Mission</h2>
+                            </div>
+                            <p>Our mission at Senghundhar College of Pharmacy is multi-faceted: Pharma Education and Talent Development: We are committed to providing pharmaceutical education and unlocking the hidden talents of students from rural backgrounds, recognizing the vital role they play in our nation's development. Innovative Teaching Methods: We employ innovative, practical-oriented teaching methods to ensure a comprehensive learning experience, fostering an atmosphere conducive to academic and professional growth. Cutting-edge Research: Our mission includes designing cutting-edge research in the field of pharmaceutical sciences, drug development, and clinical pharmacy, contributing to advancements in the pharmaceutical industry. Intellectual Property Development: We actively promote and support both national and international intellectual property development, encouraging students to engage in creative and innovative endeavors. Entrepreneurial Spirit and Ethical Standards: We foster an entrepreneurial spirit among our students, encouraging them to explore entrepreneurial opportunities in the pharmaceutical sector. Additionally, we prioritize the inculcation of high moral, ethical, and professional standards, shaping responsible and principled professionals.</p>
+                        </div>
                     </div>
-                    <p>Our mission at Senghundhar College of Pharmacy is multi-faceted:
-                        Pharma Education and Talent Development:
-                        We are committed to providing pharmaceutical education and unlocking the hidden talents of students from rural backgrounds, recognizing the vital role they play in our nation's development.
-                        Innovative Teaching Methods:
-                        We employ innovative, practical-oriented teaching methods to ensure a comprehensive learning experience, fostering an atmosphere conducive to academic and professional growth.
-                        Cutting-edge Research:
-                        Our mission includes designing cutting-edge research in the field of pharmaceutical sciences, drug development, and clinical pharmacy, contributing to advancements in the pharmaceutical industry.
-                        Intellectual Property Development:
-                        We actively promote and support both national and international intellectual property development, encouraging students to engage in creative and innovative endeavors.
-                        Entrepreneurial Spirit and Ethical Standards:
-                        We foster an entrepreneurial spirit among our students, encouraging them to explore entrepreneurial opportunities in the pharmaceutical sector. Additionally, we prioritize the inculcation of high moral, ethical, and professional standards, shaping responsible and principled professionals.
-                        </p>
                 </div>
             </div>
             <!-- Add any additional content or images for Vision and Mission -->
-        </div>
     </div>
+    
 </div>
 <!-- Vision and Mission area end -->
 
-    <!-- teacher area start -->
-    <div class="teacher-area pb--70 mt-5">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-5 col-md-6">
-                    <div class="section-title">
-                        <span class="text-uppercase">Learn from best</span>
-                        <h2>Our Professors</h2> 
-                    </div>
-                </div>
-            </div>
-            <div class="commn-carousel owl-carousel card-deck">   
-                <div class="card mb-5" style="height:600px;"> 
-                    <img src="assets/images/professor2.jpg" alt="image"> 
-                    <div class="card-body teacher-content p-25">  
-                        <h4 class="card-title mb-4">Rajesh Kumar</h4>
-                        <span class="primary-color font-italic d-block mb-3">Senior Professor</span>
-                        <br>
-                        <ul class="list-inline">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="#"><i class="fa fa-github"></i></a></li>
-                        </ul> 
-                    </div>
-                </div><!-- card -->    
+   
 
-              <div class="card mb-5" style="height:600px;"> 
-                <img src="assets/images/professor3.jpg" alt="image"> 
-                <div class="card-body teacher-content p-25">  
-                  <h4 class="card-title mb-4">Sharmila</h4>
-                  <span class="primary-color font-italic d-block mb-3">Assistant Professor</span>
-                 <br>
-                  <ul class="list-inline">
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="#"><i class="fa fa-github"></i></a></li>
-                  </ul>
-                </div>
-              </div><!-- card -->    
-
-              <div class="card mb-5" style="height:600px;"> 
-                <img src="assets/images/professor4.jpg" alt="image"> 
-                <div class="card-body teacher-content p-25">  
-                  <h4 class="card-title mb-4">Bindu</h4>
-                  <span class="primary-color font-italic d-block mb-3">Professor</span>
-                 <br>
-                  <ul class="list-inline">
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="#"><i class="fa fa-github"></i></a></li>
-                  </ul>
-                </div>
-              </div><!-- card -->  
-              <div class="card mb-5" style="height:600px;"> 
-                <img src="assets/images/professor1.jpg" alt="image"> 
-                <div class="card-body teacher-content p-25">  
-                  <h4 class="card-title mb-4">Vijay</h4>
-                  <span class="primary-color font-italic d-block mb-3">Associate Professor</span>
-                  <br>
-                  <ul class="list-inline">
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-github"></i></a></li>
-                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                  </ul>
-                </div>
-              </div><!-- card -->         
-            </div>
-        </div>
-    </div>
-    <!-- teacher area end -->
- 
-     <!-- cta area start --> 
-     <div class="cta-area primary-bg has-color ptb--50"> 
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-9">
-                    <div class="cta-content">
-                        <p class="mb-2">Click to Join the Advance Workshop</p>
-                        <h2>Training in advance networking</h2>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="cta-btn">
-                        <a class="btn btn-light btn-round" href="#">Join Now</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- cta area end -->
-
-    <!-- footer area start -->
+    <!-- footer area start
     <footer>
         <div class="footer-top has-color pt--50 pb--30">
             <div class="container-fluid">
@@ -286,7 +199,7 @@
                 </div>
             </div>
         </div>
-    </footer>
+    </footer> -->
     <!-- footer area end -->
  
     <!-- jquery latest version -->
@@ -299,6 +212,9 @@
     <script src="assets/js/jquery.slicknav.min.js"></script>
     <script src="assets/js/plugins.js"></script>
     <script src="assets/js/scripts.js"></script>
+
+    <!-- footer area -->
+    <?php include("footer.php"); ?>
 </body>
 
 </html>
