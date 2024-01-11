@@ -59,7 +59,7 @@
     </div>
     <!-- crumbs area end -->
     <!-- contact info area start -->
-    <div class="contact-info ptb--120">
+    <div class="contact-info mt-2 ptb--10">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5">
@@ -70,6 +70,7 @@
                             <li><i class="fa fa-phone"></i>+91 9367653355 / 8825707617</li>
                             <li><i class="fa fa-envelope"></i>info@senguntharpharmacycollege.org</li>
                             <li class="ml-5">admissions@senguntharpharmacycollege.org</li>
+                            <li><i class="fa fa-globe"></i>www.senguntharpharmacycollege.org</li>
                         </ul>
                         <ul class="social list-inline mt-5">
                             <li><a href="https://www.facebook.com/retterikumaranhospital"><i class="fa fa-facebook"></i></a></li>

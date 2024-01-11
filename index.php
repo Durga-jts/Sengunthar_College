@@ -120,7 +120,7 @@
     
     <!-- about area end here -->
  <!-- about area start -->
- <div class="about-area ptb--70">
+ <div class="about-area mb-5">
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-6">
@@ -136,7 +136,7 @@
             <div class="col-lg-6">
                 <div class="abt-right-thumb">
                     <div class="abt-rt-inner">
-                        <img src="assets/images/sengunthar_clg2.jpg" class="abt-rt-image">
+                        <img src="assets/images/college_img2.jpg" class="abt-rt-image">
                     </div>
                 </div>
             </div>
@@ -175,7 +175,7 @@
         <div class="col-md-8">
             <div class="section-title ml-2">
                 <span class="text-uppercase">Principal's Greeting</span>
-                <h2>Greetings from Our Principal</h2>
+                <h2>Greetings From Our Principal</h2>
             </div>
             <div class="principal-content ml-2">
                 <p class="text-justify">
@@ -197,11 +197,10 @@
 
 <div class="course-area  pt--0  pb--50  mt-2 mt-5">
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-6  ml-4">
+            <div class="row ">
+                <div class="col-md-12 ">
                     <div class="section-title">
-                        <span class="text-uppercase">Why choose</span>
-                        <h2>Sengunthar College of Pharmacy? </h2> 
+                        <h3 class="text-center">Why choose Sengunthar College of Pharmacy?</h3>
                     </div>
                 </div>
             </div>

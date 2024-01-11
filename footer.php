@@ -77,7 +77,7 @@
                                 </div>
                                 <div class="address">
                                     <!-- <h6>WEBSITE LINK</h6> -->
-                                    <p><i class="fa fa-globe mr-2"></i>http://www.scpt.co.in/ </p>         <!--<a href="http://vaaraahi.co.in" target="_blank">vaaraahi.co.in</a>-->
+                                    <p><i class="fa fa-globe mr-2"></i> www.senguntharpharmacycollege.org </p>         <!--<a href="http://vaaraahi.co.in" target="_blank">vaaraahi.co.in</a>-->
                                 </div>
                                 
                             </div>

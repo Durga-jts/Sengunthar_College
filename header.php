@@ -53,7 +53,7 @@
                     <div class="row align-items-center">
                         <div class="col-md-1 col-sm-9">
                             <div class="logo" style="margin-left: -7px;">
-                                <a href="index.html" style="width:145px;"><img src="assets/images/logo1.png" alt="logo"></a>
+                                <a href="index.php" style="width:145px;"><img src="assets/images/logo1.png" alt="logo"></a>
                             </div>
                         </div>
                         <div class="col-md-9 d-none d-lg-block">
@@ -64,7 +64,7 @@
                                         <li><a href="about-us.php">About College</a></li>
                                         <li><a href="academic.php">Academic </a></li>
                                         <li><a href="#">Facilities </a></li>
-                                        <li><a href="#">Admission </a>
+                                        <li><a href="admission.php">Admission </a>
                                             <!-- <ul class="submenu">
                                                 <li><a href="courses.html">courses</a></li>
                                                 <li><a href="course-details.html">course details</a></li>
@@ -76,14 +76,14 @@
                                                 <li><a href="blog-details.html">blog details</a></li>
                                             </ul> -->
                                         </li>
-                                        <li><a href="#">Careers </a></li>
+                                        <li><a href="career.php">Careers </a></li>
                                         <li><a href="contact.php">Contact us </a></li>
                                     </ul>
                                 </nav>
                             </div>
                         </div>
                         <div class="col-md-1 logo ml-5">
-                            <a href="index.html" style="width:145px;"><img src="assets/images/iso.jpeg" alt="logo" class="ml-2"></a>
+                            <a href="index.php" style="width:145px;"><img src="assets/images/iso.jpeg" alt="logo" class="ml-2"></a>
                         </div>
                         <!-- <div class="col-md-1 col-sm-3">
                             <div class="hb-right w-25">

@@ -270,7 +270,35 @@ body {
 .span-content{
   display:block;
 }
+
 /* Why choose us? end */
+
+/* Facilities */
+.faq_question_widget {
+  background-color: rgba(243, 243, 246, 0);
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(237, 239, 247);
+  border-radius: 5px;
+  padding: 30px 30px 15px 30px;
+}
+.faq_question_widget ul {
+  margin-bottom: 0;
+}
+
+.faq_question_widget ul li a.sidemenu_active {
+  font-weight: bold;
+  border-bottom: #ff1053 1px solid;
+}
+.shadow_box {
+  background-color: #FFF;
+  box-shadow: 0 2px 12px rgba(0,0,0,.12);
+  border-radius: 5px;
+}
+.facilities-content_section{
+  margin-top:10%;
+}
+/* Facilities End */
 h1,
 h2,
 h3,
@@ -867,7 +895,7 @@ a:hover {
 
 .section-title {
   position: relative;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 .section-title > span {
   display: block;
@@ -927,6 +955,8 @@ a.expand-video:hover {
 
 .about-area {
   overflow: hidden;
+  margin-top: 5%;
+
 }
 
 .about-left-content {

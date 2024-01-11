@@ -102,11 +102,11 @@
                     </div>
                     <div class="cs-content"> 
                         <h3 class="mb-4"><a href="#">B.Pharm (Bachelor of Pharmacy) </a></h3> 
-                        <p>B.Pharm is a four-year undergraduate program designed to provide students with a strong foundation in pharmaceutical sciences. The B.Pharm is one of the popular job oriented course among the science students after class 12th. In this course the students study about the drugs and medicines, Pharmaceutical Engineering, Medicinal Chemistry etc. This course provides a large no. of job opportunities in both the public and private sector.  The curriculum covers a range of subjects including pharmaceutics, pharmaceutical chemistry, pharmacology, pharmacognosy, pharmaceutical analysis, and regulatory affairs.
+                        <p class="text-justify">B.Pharm is a four-year undergraduate program designed to provide students with a strong foundation in pharmaceutical sciences. The B.Pharm is one of the popular job oriented course among the science students after class 12th. In this course the students study about the drugs and medicines, Pharmaceutical Engineering, Medicinal Chemistry etc. This course provides a large no. of job opportunities in both the public and private sector.  The curriculum covers a range of subjects including pharmaceutics, pharmaceutical chemistry, pharmacology, pharmacognosy, pharmaceutical analysis, and regulatory affairs.
                             Practical training through internships and hands-on experience in laboratories is a key component.
                             </p>
                             <h5>Internship and Practical Training:</h5>
-                            <p class="mt-2">B.Pharm programs include mandatory internships and practical training, allowing students to apply theoretical knowledge in real-world settings.</p>
+                            <p class="mt-2 text-justify">B.Pharm programs include mandatory internships and practical training, allowing students to apply theoretical knowledge in real-world settings.</p>
                                 <h5>Additional Information:</h5>
                                 <p class="mt-2">Senghundhar College of Pharmacy offers modern facilities, including laboratories, for Pharm. D students to enhance their practical skills and clinical knowledge.
                                     Prospective students are encouraged to check the official website or contact the college admission office for the most up-to-date and specific details regarding eligibility criteria and course structure.
@@ -210,13 +210,13 @@
                     </div>
                     <div class="cs-content"> 
                         <h3 class="mb-4"><a href="#">D.Pharm (Diploma in Pharmacy) </a></h3> 
-                        <p>D. Pharm is a two-year diploma program designed to provide students with foundational knowledge and skills in pharmaceutical sciences.  Diploma in Pharmacy is a short-range course for aspirants who want to start their career in the field of pharmacy. Instead of doing long term courses in pharmacy domain, D. Pharmacy course is the ideal choice for the student who wants a quick start in their pharmacy career. Pursuing D. Pharm can be a good beginning to understand the fundamentals of pharmacy programme and then pursue advanced courses like B. Pharm & Pharm.D. The curriculum covers fundamental subjects such as pharmaceutics, pharmaceutical chemistry, pharmacology, pharmacognosy, and pharmacy practice.
+                        <p class="text-justify">D. Pharm is a two-year diploma program designed to provide students with foundational knowledge and skills in pharmaceutical sciences.  Diploma in Pharmacy is a short-range course for aspirants who want to start their career in the field of pharmacy. Instead of doing long term courses in pharmacy domain, D. Pharmacy course is the ideal choice for the student who wants a quick start in their pharmacy career. Pursuing D. Pharm can be a good beginning to understand the fundamentals of pharmacy programme and then pursue advanced courses like B. Pharm & Pharm.D. The curriculum covers fundamental subjects such as pharmaceutics, pharmaceutical chemistry, pharmacology, pharmacognosy, and pharmacy practice.
                             Practical training and internships are integral components to enhance hands-on skills.
                             
                             <h5>Internship and Practical Training:</h5>
-                            <p class="mt-2">D. Pharm programs include practical training and internships to provide hands-on experience in pharmacy practice.</p>
+                            <p class="mt-2 text-justify">D. Pharm programs include practical training and internships to provide hands-on experience in pharmacy practice.</p>
                                 <h5>Additional Information:</h5>
-                                <p class="mt-2">Senghundhar College of Pharmacy offers modern laboratory facilities, a well-equipped library, and a supportive learning environment for D. Pharm students.<br>
+                                <p class="mt-2 text-justify">Senghundhar College of Pharmacy offers modern laboratory facilities, a well-equipped library, and a supportive learning environment for D. Pharm students.<br>
                                 Prospective students are encouraged to check the official website or contact the college admission office for the most up-to-date and specific details regarding eligibility criteria and course structure
                                     
                                     </p>
@@ -319,14 +319,14 @@
                     </div>
                     <div class="cs-content"> 
                         <h3 class="mb-4"><a href="#">M.Pharm (Master of Pharmacy) </a></h3> 
-                        <p>M.Pharm is a two-year postgraduate program designed to provide in-depth knowledge and specialization in pharmaceutical sciences.M. Pharmacy is a two years course that done after passing B. Pharmacy with 50% marks. In India, the scope of M. Pharmacy is good with right institute and right skill. The M. Pharmacy specializations are provided in various fields.The curriculum is designed to delve deeper into specialized areas of pharmaceutical sciences.
+                        <p class="text-justify">M.Pharm is a two-year postgraduate program designed to provide in-depth knowledge and specialization in pharmaceutical sciences.M. Pharmacy is a two years course that done after passing B. Pharmacy with 50% marks. In India, the scope of M. Pharmacy is good with right institute and right skill. The M. Pharmacy specializations are provided in various fields.The curriculum is designed to delve deeper into specialized areas of pharmaceutical sciences.
                             Core and elective courses cover advanced topics, and students may be required to complete a research project or dissertation.
                             
                             
                             <h5>Internship and Practical Training:</h5>
-                            <p class="mt-2">M.Pharm programs typically include an internship or practical training, allowing students to gain hands-on experience in their chosen specialization.</p>
+                            <p class="mt-2 text-justify">M.Pharm programs typically include an internship or practical training, allowing students to gain hands-on experience in their chosen specialization.</p>
                                 <h5>Additional Information:</h5>
-                                <p class="mt-2">Senghundhar College of Pharmacy provides state-of-the-art laboratory facilities, research opportunities, and a conducive learning environment for M.Pharm students.
+                                <p class="mt-2 text-justify">Senghundhar College of Pharmacy provides state-of-the-art laboratory facilities, research opportunities, and a conducive learning environment for M.Pharm students.
                                     Prospective students are encouraged to check the official website or contact the college admission office for the most up-to-date and specific details regarding eligibility criteria and course structure.
 
                                     </p>
@@ -429,12 +429,12 @@
                     </div>
                     <div class="cs-content"> 
                         <h3 class="mb-4"><a href="#">Doctor of Pharmacy (Pharm. D) </a></h3> 
-                        <p>Pharm. D is a six-year professional doctoral program, including both academic and practical training.</p>
+                        <p class="text-justify">Pharm. D is a six-year professional doctoral program, including both academic and practical training.</p>
                             
                             <h5>Internship and Practical Training:</h5>
-                            <p class="mt-2">M.Pharm programs typically include an internship or practical training, allowing students to gain hands-on experience in their chosen specialization.</p>
+                            <p class="mt-2 text-justify">M.Pharm programs typically include an internship or practical training, allowing students to gain hands-on experience in their chosen specialization.</p>
                                 <h5>Additional Information:</h5>
-                                <p class="mt-2">Senghundhar College of Pharmacy provides state-of-the-art laboratory facilities, research opportunities, and a conducive learning environment for M.Pharm students.
+                                <p class="mt-2 text-justify">Senghundhar College of Pharmacy provides state-of-the-art laboratory facilities, research opportunities, and a conducive learning environment for M.Pharm students.
                                     Prospective students are encouraged to check the official website or contact the college admission office for the most up-to-date and specific details regarding eligibility criteria and course structure.
 
                                     </p>
@@ -518,10 +518,10 @@
                             <!-- <div class="instructor"> -->
                                 <div class="post-author-info">
                                 <ul>
-                                    <li>Prof. Dr. M. SURENDRA KUMAR M.Pharm., Ph.D.,</li>
-                                    <li>PRINCIPAL,</li>
-                                    <li>SENGHUNDHAR COLLEGE OF PHARMACY</li>
-                                    <li>9367653355/8825707617</li>
+                                    <li class="py-1">Prof. Dr. M. Surendra Kumar M.Pharm., Ph.D.,</li>
+                                    <li class="py-1">Principal,</li>
+                                    <li class="py-1">Sengunthar College Of Pharmacy</li>
+                                    <li class="py-1">9367653355/8825707617</li>
                                 </ul>
                                     <h5 class="mt-5">Social Info</h5>
                                     <ul class="social">
@@ -542,7 +542,7 @@
                             <div class="course-list">
                                 <div class="w-cs-single">
                                    
-                                        <img src="assets/images/course_1.png" alt="image">
+                                        <img src="assets/images/course1.webp" alt="image">
                                         <div class="fix">
                                             <p><a href="#" onclick="show1()" id="bPharmLink">B.Pharm (Bachelor of Pharmacy)</a></p>
                                             <span><i class="fa fa-clock-o"></i> 4 years</span>
@@ -551,7 +551,7 @@
                                 </div>
                                 <div class="w-cs-single">
                                    
-                                        <img src="assets/images/course_2.png" alt="image">
+                                        <img src="assets/images/course2.webp" alt="image">
                                         <div class="fix">
                                             <p><a href="#" onclick="show2()">D. Pharm (Diploma in Pharmacy)</a></p>
                                             
@@ -560,14 +560,14 @@
                                    
                                 </div>
                                 <div class="w-cs-single">
-                                    <img src="assets/images/course_3.png" alt="image">
+                                    <img src="assets/images/course3.webp" alt="image">
                                     <div class="fix">
                                         <p><a href="#" onclick="show3()">M.Pharm (Master of Pharmacy)</a></p>
                                         <span><i class="fa fa-clock-o"></i> 2 years</span>
                                     </div>
                                 </div>
                                 <div class="w-cs-single">
-                                    <img src="assets/images/course_4.png" alt="image">
+                                    <img src="assets/images/course4.webp" alt="image">
                                     <div class="fix">
                                         <p><a href="#" onclick="show4()">Doctor of Pharmacy (Pharm. D) </a></p>
                                         <span><i class="fa fa-clock-o"></i> 6 years</span>
@@ -593,7 +593,7 @@
                         
                         <!-- widget course start -->
                         <div class="widget widget-tag" style="background-color: #f6f7fb;padding:20px;">
-                            <h4 class="widget-title">Tag Cloud</h4>
+                            <h4 class="widget-title">Tag Course</h4>
                             <ul class="widget-tags">
                                 <li><a href="#">Pharmacy</a></li>
                                 <li><a href="#">Medicine</a></li>
@@ -616,8 +616,8 @@
     </div>
 </div>
 <div class="application col-6 text-center mx-auto align-items-center mt-5 mb-5">
-    <h2>Are you ready to take the next step toward your future career?</h2>
-    <a class="btn btn-primary btn-round btn-lg mb-5 mt-5" href="#">Apply Now</a>
+    <h2>Are you ready to take the next step toward your future studies?</h2>
+    <a class="btn btn-primary btn-round btn-lg mb-5 mt-5" href="admission.php">Apply Now</a>
 </div>
 <!-- footer start -->
    <?php include("footer.php"); ?>

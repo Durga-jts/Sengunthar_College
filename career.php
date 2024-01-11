@@ -1,0 +1,261 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Sengunthar College of Pharmacy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="shortcut icon" type="image/png" href="assets/images/icon/favicon.ico">
+    <!-- all css here -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/slicknav.min.css">
+    <link rel="stylesheet" href="assets/css/typography.css">
+    <link rel="stylesheet" href="assets/css/default-css.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" crossorigin="anonymous" />
+    <!--color css-->
+    <link rel="stylesheet" id="triggerColor" href="assets/css/triggerplate/color-0.css">
+    <!-- modernizr css -->
+    <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+
+    <style>
+        .bg_dark_9 {
+    background-color: #f5f5f5;
+}
+.form-group {
+    margin-bottom: 1rem;
+}
+.form-control{
+    line-height: 2.5;
+    font-size: 1em;
+}
+.validation-message {
+            color: red;
+            font-size: 12px;
+            margin-top: 5px;
+        }
+.apply_form{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   
+}
+    </style>
+</head>
+<body>
+    <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <!-- preloader area start -->
+    <!-- <div id="preloader">
+        <div class="loader"></div>
+    </div> -->
+    <!-- prealoader area end -->
+
+    <!-- header area start -->
+        <!-- /* Header */ -->
+<?php include("header.php"); ?>
+    <!-- header area end -->
+
+    <!-- offset search area start -->
+    <div class="offset-search">
+        <form action="#">
+            <input type="text" name="search" placeholder="Search here...">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+    </div>
+    <!-- offset search area end -->
+    <!-- body overlay area start -->
+    <div class="body_overlay"></div>
+    <!-- body overlay area end -->
+    <!-- crumbs area start -->
+    <div class="crumbs-area">
+        <div class="container">
+            <div class="crumb-content">
+                <h4 class="crumb-title"><span>careers</span></h4>
+            </div>
+        </div>
+    </div>
+    <div class="about-area ptb--5">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="section-title">
+                    <h2 class="text-center"><span>Career</span></h2>
+                    <form action="#" class="apply_form p-5 mt-5" name="careerForm" id="careerForm">
+
+                        <!-- First Row -->
+                        <div class="row">
+                            <div class="col-md-6">
+                                <!-- Name -->
+                                <div class="form-group">
+                                    <label for="name">Name:</label>
+                                    <input type="text" class="form-control" id="name" name="name" required>
+                                    <span class="validation-message" id="first-name-validation"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <!-- Email -->
+                                <div class="form-group">
+                                    <label for="email">Email:</label>
+                                    <input type="email" class="form-control" id="email" name="email" required>
+                                    <span class="validation-message" id="email-validation"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="user_class">Course</label>
+                                    <select class="form-control" name="course_class" id="course_class"  style="height:3.3em;">
+                                        <option>Choose one</option>
+                                        <option>B.Pharm (Bachelor of Pharmacy)</option>
+                                        <option>D.Pharm (Diploma in Pharmacy)</option>
+                                        <option>M.Pharm (Master of Pharmacy)</option>
+                                        <option>Doctor of Pharmacy(Pharm.D)</option>
+                                        
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="dob">Date of Birth:</label>
+                                    <input type="date" class="form-control" name="dob" id="dob" >
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="gender">Gender:</label>
+                                    <select id="gender" class="form-control" name="gender" style="height:3.3em;">
+                                      <option value="" class="form-control">Select Gender</option>
+                                      <option value="male" class="form-control">Male</option>
+                                      <option value="female" class="form-control">Female</option>
+                                      <option value="other" class="form-control">Other</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Second Row -->
+                        <div class="row">
+                            <div class="col-md-6">
+                                <!-- Phone Number -->
+                                <div class="form-group">
+                                    <label for="phone">Phone Number:</label>
+                                    <input type="tel" class="form-control" id="phone" name="phone" required>
+                                    <span class="validation-message" id="phone-validation"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <!-- Resume -->
+                                <div class="form-group">
+                                    <label for="resume">Resume:</label>
+                                    <input type="file" class="form-control" id="resume" name="resume" accept=".pdf, .doc, .docx" required>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <!-- Submit Button -->
+                        <div class="d-flex justify-content-center mt-3">
+                            <a href="#" class="btn btn-primary" onclick="validateForm()">Submit</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+   <!-- footer area start -->
+<?php include("footer.php"); ?>
+<!-- footer area end -->
+<script>
+function validateForm() {
+
+    var Name = $('#name').val();
+    if (Name.length < 3) {
+        $('#name').focus();
+        $('#first-name-validation').text('Please enter a valid name.');
+        return;
+    } else {
+        $('#first-name-validation').text('');
+    }
+
+
+    
+    var email = $('#email').val();
+    if (!email || !isValidEmail(email)) {
+        $('#email').focus();
+        $('#email-validation').text('Please enter a valid email address.');
+        return;
+    } else {
+        $('#email-validation').text('');
+    }
+    
+    var selectedCourse = $('#course_class').val();
+
+if (selectedCourse === 'Choose one') {
+    $('#course_class').focus();
+    return;
+}
+    var dob = $('[name="dob"]').val();
+    if (!dob) {
+       
+        
+        $('[name="dob"]').focus();
+        
+        return;
+    }
+    var gender = $('#gender').val();
+         if (!gender) {
+             $('#gender').focus();
+             
+             return;
+         }
+
+
+    var phoneNumber = $('#phone').val();
+    if (!phoneNumber || !isValidPhoneNumber(phoneNumber)) {
+        $('#phone').focus();
+        $('#phone-validation').text('Please enter a valid phone number.');
+        return;
+    } else {
+        $('#phone-validation').text('');
+    }
+    var resume = $('[name="resume"]').val();
+    if (!resume) {
+       
+        
+        $('[name="resume"]').focus();
+        
+        return;
+    }
+    
+}
+function isValidEmail(email) {
+         // You can implement a more sophisticated email validation if needed
+         var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+         return emailRegex.test(email);
+     }
+ 
+     function isValidPhoneNumber(phoneNumber) {
+         // You can implement a more sophisticated phone number validation if needed
+         var phoneRegex = /^\d{10}$/;
+         return phoneRegex.test(phoneNumber);
+     }
+</script>
+ <!-- jquery latest version -->
+ <script src="assets/js/vendor/jquery-2.2.4.min.js"></script>
+ <!-- bootstrap 4 js -->
+ <script src="assets/js/bootstrap.min.js"></script>
+ <!-- others plugins -->
+ <script src="assets/js/owl.carousel.min.js"></script>
+ <script src="assets/js/jquery.magnific-popup.min.js"></script>
+ <script src="assets/js/jquery.slicknav.min.js"></script>
+ <script src="assets/js/plugins.js"></script>
+ <script src="assets/js/scripts.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</body>
+</html>

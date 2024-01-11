@@ -61,7 +61,7 @@
 
     <!-- academic area start -->
     <!-- academic body1 area start -->
-    <div class="about-area ptb--120">
+    <div class="about-area ">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-6">
@@ -69,9 +69,9 @@
                         <div class="section-title">
                             <span class="text-uppercase">overview</span>
                             <h2><span class="primary-color">Outstanding Academics</span></h2>
-                            <p>Our college creates an environment that instills a strong work ethic, discipline, and a set of principles that will empower students for their future studies and careers. </p>
-                            <p>At Senghundhar College of Pharmacy, our commitment to the growth and success of our students is unwavering. The constant reviews, personalized attention, and timely counseling provided by our management, principal, and faculty members ensure that each student has the support needed to overcome challenges and achieve their highest potential. Our institution takes pride in producing graduates who, like inestimable buds, spread fragrance throughout the pharmaceutical world.</p>
-                            <p>The Academic offers include 4 major specializations courses, so your degree will surely reflect your interests and strengths.</p>
+                            <p class="text-justify">Our college creates an environment that instills a strong work ethic, discipline, and a set of principles that will empower students for their future studies and careers. </p>
+                            <p class="text-justify">At Senghundhar College of Pharmacy, our commitment to the growth and success of our students is unwavering. The constant reviews, personalized attention, and timely counseling provided by our management, principal, and faculty members ensure that each student has the support needed to overcome challenges and achieve their highest potential. Our institution takes pride in producing graduates who, like inestimable buds, spread fragrance throughout the pharmaceutical world.</p>
+                            <p class="text-justify">The Academic offers include 4 major specializations courses, so your degree will surely reflect your interests and strengths.</p>
                         </div>
                         <!-- <a href="#" class="btn btn-primary btn-round">Read more</a> -->
                     </div>
@@ -79,7 +79,7 @@
                 <div class="col-lg-6">
                     <div class="abt-right-thumb">
                         <!-- <div class="abt-rt-inner"> -->
-                            <img src="assets/images/sengunthar_clg2.jpg" class="abt-rt-image" style="height:50vh;">
+                            <img src="assets/images/college_img1.jpg" class="abt-rt-image" style="height:50vh;">
                         <!-- </div> -->
                     </div>
                 </div>
@@ -89,91 +89,10 @@
     <!-- academic body1 area end -->  
     
 
-    <!-- course area start -->
-    <div class="course-area  pt--0 pb--50 mt-2 mt-5">
+     <!-- course area start -->
+     <div class="course-area pt--0 pb--50" >
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-6  ml-4">
-                    <div class="section-title">
-                        <span class="text-uppercase">Build your career</span>
-                        <h2>Featured Courses </h2> 
-                    </div>
-                </div>
-            </div>
-  
-            <div class="container mt-5">
-                <div class="row">
-                    <div class="col-md-3 course-details" id="bpharm">
-                        <div class="row justify-content-center">
-                            <img src="assets/images/doctor1.png" class="img-fluid rounded-circle" alt="Doctor Image" style="width: 150px; height: 150px;">
-                        </div>
-
-                        <div class="row justify-content-center mt-2">
-                            <h6><a href="#">B.Pharm </a></h6>
-                        </div>
-
-                        <div class="row justify-content-center ">
-                            <h6><a href="#">(Bachelor of Pharmacy)  </a></h6>
-                        </div>
-
-                        <div class="row justify-content-center">
-                        <a class="btn btn-primary btn-round btn-sm" href="#" onclick="showBlog1()"> Read More </a>
-                        </div>
-                        
-                    </div>
-                    <div class="col-md-3 course-details" id="dpharm">
-                        <div class="row justify-content-center">
-                            <img src="assets/images/doctor2.png" class="img-fluid rounded-circle" alt="Doctor Image" style="width: 150px; height: 150px;">
-                        </div>
-
-                        <div class="row justify-content-center mt-2">
-                            <h6><a href="#">D.Pharm</a></h6>
-                        </div>
-
-                        <div class="row justify-content-center ">
-                            <h6><a href="#">(Diploma in Pharmacy) </a></h6>
-                        </div>
-
-                    </div>
-                    <div class="col-md-3 course-details" id="mpharm">
-                        <div class="row justify-content-center">
-                            <img src="assets/images/doctor3.png" class="img-fluid rounded-circle" alt="Doctor Image" style="width: 150px; height: 150px;">
-                        </div>
-
-                        <div class="row justify-content-center mt-2">
-                            <h6><a href="#">M.Pharm </a></h6>
-                        </div>
-
-                        <div class="row justify-content-center ">
-                            <h6><a href="#">(Master of Pharmacy)</a></h6>
-                        </div>
-
-                    </div>
-                    <div class="col-md-3 course-details" id="pharmd">
-                        <div class="row justify-content-center">
-                            <img src="assets/images/doctor4.png" class="img-fluid rounded-circle" alt="Doctor Image" style="width: 150px; height: 150px;">
-                        </div>
-
-                        <div class="row justify-content-center mt-2">
-                            <h6><a href="#">(Pharm. D)</a></h6>
-                        </div>
-
-                        <div class="row justify-content-center ">
-                            <h6><a href="#">(Doctor of Pharmacy) </a></h6>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            
-        </div>
-    </div>
-    <!-- course area end -->
-
-    <!-- academic course area start -->
-    <div class="course-area  pt--0 pb--50">
-        <div class="container-fluid">
-            <div class="row">
+            <div class="row" style="max-width: 800px; margin: 0 auto;">
                 <div class="col-md-6">
                     <div class="section-title">
                         <span class="text-uppercase">Build your career</span>
@@ -202,13 +121,13 @@
                         </div>
                         
                         <div class="row ">
-                            <p class="text_content text-justify">B.Pharm is a four-year undergraduate program designed to provide students with a strong foundation in pharmaceutical sciences.  The curriculum covers a range of subjects including pharmaceutics, pharmaceutical chemistry, pharmacology, pharmacognosy, pharmaceutical analysis, and regulatory affairs</p> 
+                            <p class="text_content text-justify">B.Pharm is a 4 year undergraduate program in pharmaceutical sciences covering pharmaceutics, chemistry, pharmacology, pharmacognosy, analysis, and regulatory affairs.</p> 
                         </div>  
 
                         <div class="row ">
                         <a class="btn btn-primary btn-round btn-sm" href="#" onclick="showBlog1()"> Read More </a>
                         </div>
-                        <ul class="course-meta-details list-inline  w-100 mt-5">
+                        <!-- <ul class="course-meta-details list-inline  w-100 mt-5">
                             <li> 
                              <p>Course</p>
                              <span>4 Year</span>
@@ -221,7 +140,7 @@
                              <p>Class Time</p>
                               <span>1 hour</span>
                             </li>      
-                        </ul>  
+                        </ul>   -->
                   </div><!-- card-body -->
                 </div><!-- card -->
  
@@ -245,13 +164,13 @@
                         </div>
 
                         <div class="row ">
-                            <p class="text-justify">D. Pharm is a two-year diploma program designed to provide students with foundational knowledge and skills in pharmaceutical sciences. The curriculum covers fundamental subjects such as pharmaceutics, pharmaceutical chemistry, pharmacology, pharmacognosy, and pharmacy practice.</p> 
+                            <p class="text-justify">D.Pharm is a 2-year diploma program in pharmaceutical sciences covering essential subjects like pharmaceutics, chemistry, pharmacology, pharmacognosy, and pharmacy practice.</p> 
                         </div>
                         
                         <div class="row ">
                             <a class="btn btn-primary btn-round btn-sm" href="#" onclick="showBlog2()"> Read More </a>
                         </div>
-                        <ul class="course-meta-details list-inline  w-100 mt-5">
+                        <!-- <ul class="course-meta-details list-inline  w-100 mt-5">
                             <li> 
                              <p>Course</p>
                              <span>2 Year</span>
@@ -264,7 +183,7 @@
                              <p>Class Time</p>
                               <span>2 hour</span>
                             </li>      
-                        </ul>  
+                        </ul>   -->
                   </div><!-- card-body -->
                 </div><!-- card -->
   
@@ -276,23 +195,25 @@
                     <div class="card-body  p-25"> 
                         <div class="course-meta-title mb-4">
                             <div class="course-meta-text">
-                                <h4><a href="#" class="mpharm" >M.Pharm (Master of Pharmacy) </a></h4>
+                                <h4><a href="#" >M.Pharm (Master of Pharmacy)
+                                </a></h4>
                                 <ul class="course-meta-stats">
                                     <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half"></i></li>
                                     <li>36 <i class="fa fa-comment"></i></li>
                                     <li>85 <i class="fa fa-heart"></i></li>
                                 </ul>
                             </div> 
-                            
+                           
                         </div>
+
                         <div class="row ">
-                            <p class="text-justify">M.Pharm is a two-year postgraduate program designed to provide in-depth knowledge and specialization in pharmaceutical sciences.  Core and elective courses cover advanced topics, and students may be required to complete a research project or dissertation. </p> 
+                            <p class="text-justify">M.Pharm is a 2-year postgraduate program specializing in pharmaceutical sciences. Core and elective courses cover advanced topics, with a potential research project or dissertation.</p> 
                         </div>
                         
                         <div class="row ">
                             <a class="btn btn-primary btn-round btn-sm" href="#" onclick="showBlog3()"> Read More </a>
                         </div>
-                        <ul class="course-meta-details list-inline  w-100 mt-5">
+                        <!-- <ul class="course-meta-details list-inline  w-100 mt-5">
                             <li> 
                              <p>Course</p>
                              <span>2 Year</span>
@@ -303,11 +224,12 @@
                             </li> 
                             <li>
                              <p>Class Time</p>
-                              <span>1 hour</span>
+                              <span>2 hour</span>
                             </li>      
-                        </ul>  
+                        </ul>   -->
                   </div><!-- card-body -->
-                </div><!-- card --> 
+                </div><!-- card -->
+  
 
                 <div class="card mb-5 text-center text-md-left">
                     <div class="course-thumb">
@@ -326,13 +248,10 @@
                             </div> 
                             
                         </div>
-                        <p class="text-justify">Pharm. D is a six-year professional doctoral program, including both academic and practical training.  The curriculum includes classroom-based learning, practical training, and experiential learning.
-                            Emphasis on clinical pharmacy, patient care, and pharmaceutical care.
+                        <p class="text-justify">Pharm.D is a 6-year doctoral program integrating academic, practical, and experiential learning, emphasizing clinical pharmacy, patient care, and pharmaceutical practice.
                              </p> 
-                             <div class="row ">
-                                <a class="btn btn-primary btn-round btn-sm" href="#" onclick="showBlog4()"> Read More </a>
-                            </div>
-                        <ul class="course-meta-details list-inline  w-100 mt-5">
+                        <a class="btn btn-primary btn-round btn-sm" href="#" onclick="showBlog4()"> Read More </a>
+                        <!-- <ul class="course-meta-details list-inline  w-100 mt-5">
                             <li> 
                              <p>Course</p>
                              <span>6 Year</span>
@@ -345,17 +264,19 @@
                              <p>Class Time</p>
                               <span>1 hour</span>
                             </li>      
-                        </ul>  
+                        </ul>   -->
                   </div><!-- card-body -->
                 </div><!-- card --> 
 
             </div> 
         </div>
     </div>
-    <!-- academic course area end -->
+    <!-- course area end -->
+
+   
      
     <!-- choosing area start -->
-    <div class="choose-area  pt--30 pb--30">
+    <!-- <div class="choose-area  pt--30 pb--30">
         <div class="container-fluid">
             <div class="row">
                 <div class="section-title p-25 text-center mx-auto">
@@ -364,7 +285,7 @@
                     <div class="row" style="display:flex;">
                         <div class="col-md-2 col-4 mb-4 mx-auto">
                             <div class="circle-icon">
-                                <!-- Replace 'fa-icon' with the actual Font Awesome icon class you want to use -->
+                                
                                 <i class="fa fas fa-university fa-3x" style="color:#138643;"></i>
                             </div>
                             <p class="mt-3">Campus</p>
@@ -399,7 +320,7 @@
                 </div> 
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- choosing area end -->
 
@@ -442,5 +363,6 @@
             localStorage.setItem('selectedBlog', 'blog4');
             window.location.href = `course_detail.php#blog4`;
         }
+        
     </script>
     </html>

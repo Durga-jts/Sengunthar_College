@@ -63,7 +63,7 @@
     </div>
     <!-- crumbs area end --> 
     <!-- about area start -->
-    <div class="about-area ptb--120">
+    <div class="about-area ptb--5">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-6">
@@ -72,7 +72,7 @@
                              <span class="text-uppercase">about college</span>
                             <h2>Welcome to</h2><h2><span class="primary-color">Senghundhar College of Pharmacy</span></h2> 
                         </div>
-                        <p>Established in 2017, Senghundhar College of Pharmacy is dedicated to achieving excellence in Pharmacy Education. Affiliated with the prestigious “The Tamil Nadu Dr. MGR Medical University” in Chennai and approved by the Pharmacy Council of India (PCI), New Delhi, under section 12 of the Pharmacy Act, our institution aims to redefine education, particularly for rural students in India.
+                        <p class="text-justify">Established in 2017, Senghundhar College of Pharmacy is dedicated to achieving excellence in Pharmacy Education. Affiliated with the prestigious “The Tamil Nadu Dr. MGR Medical University” in Chennai and approved by the Pharmacy Council of India (PCI), New Delhi, under section 12 of the Pharmacy Act, our institution aims to redefine education, particularly for rural students in India.
                             Our college creates an environment that instills a strong work ethic, discipline, and a set of principles that will empower students for their future studies and careers. We take pride in offering enhanced hands-on training, well-established infrastructure, a well-resourced library, industrial visits, guest lectures, workshops, symposiums, conferences, and student exhibitions.
                             </p>
                         
@@ -82,7 +82,7 @@
                 <div class="col-lg-6">
                     <div class="abt-right-thumb">
                         <div class="abt-rt-inner">
-                            <img src="assets/images/sengunthar_clg2.jpg">
+                            <img src="assets/images/college_img2.jpg" class="abt-rt-image">
                         </div>
                     </div>
                 </div>
@@ -93,12 +93,12 @@
 
  
 <!-- Vision and Mission area start -->
-<div class="vision-mission-area ptb--120">
+<div class="vision-mission-area ptb--90">
     <div class="container-fluid">
         <div class="row">
             <!-- Vision Card -->
             <div class="col-md-2">
-                <img src="assets\images\vision.PNG" alt="image 1" style="width:100%;">
+                <img src="assets/images/vision.png" alt="image 1" style="width:100%;">
             </div>
             <div class="col-md-10">
                 <div class="card">
@@ -107,7 +107,7 @@
                             <span class="text-uppercase">Vision</span>
                             <h2>Our Vision</h2>
                         </div>
-                        <p>Our vision is to be recognized as one of the premier institutes in Pharmacy Education, Research, and Pharmacy Practice at both the National and International levels. We strive to create an educational ecosystem that not only imparts knowledge but also nurtures a passion for continuous learning and innovation. At Senghundhar College of Pharmacy, our commitment to the growth and success of our students is unwavering. The constant reviews, personalized attention, and timely counseling provided by our management, principal, and faculty members ensure that each student has the support needed to overcome challenges and achieve their highest potential. Our institution takes pride in producing graduates who, like inestimable buds, spread fragrance throughout the pharmaceutical world.</p>
+                        <p class="text-justify">Our vision is to be recognized as one of the premier institutes in Pharmacy Education, Research, and Pharmacy Practice at both the National and International levels. We strive to create an educational ecosystem that not only imparts knowledge but also nurtures a passion for continuous learning and innovation. At Senghundhar College of Pharmacy, our commitment to the growth and success of our students is unwavering. The constant reviews, personalized attention, and timely counseling provided by our management, principal, and faculty members ensure that each student has the support needed to overcome challenges and achieve their highest potential. Our institution takes pride in producing graduates who, like inestimable buds, spread fragrance throughout the pharmaceutical world.</p>
                     </div>
                 </div>
             </div>
@@ -116,7 +116,7 @@
             <!-- Mission Card -->
             <div class="row mt-3">
                 <div class="col-md-2">
-                    <img src="assets\images\mission.PNG" alt="image 1" style="width:100%;">
+                    <img src="assets/images/mission.pgn" alt="image 1" style="width:100%;">
                 </div>
                 <div class="col-md-10">
                     <div class="card">
@@ -124,7 +124,7 @@
                             <div class="section-title mt-4">
                                 <h2>Our Mission</h2>
                             </div>
-                            <p>Our mission at Senghundhar College of Pharmacy is multi-faceted: Pharma Education and Talent Development: We are committed to providing pharmaceutical education and unlocking the hidden talents of students from rural backgrounds, recognizing the vital role they play in our nation's development. Innovative Teaching Methods: We employ innovative, practical-oriented teaching methods to ensure a comprehensive learning experience, fostering an atmosphere conducive to academic and professional growth. Cutting-edge Research: Our mission includes designing cutting-edge research in the field of pharmaceutical sciences, drug development, and clinical pharmacy, contributing to advancements in the pharmaceutical industry. Intellectual Property Development: We actively promote and support both national and international intellectual property development, encouraging students to engage in creative and innovative endeavors. Entrepreneurial Spirit and Ethical Standards: We foster an entrepreneurial spirit among our students, encouraging them to explore entrepreneurial opportunities in the pharmaceutical sector. Additionally, we prioritize the inculcation of high moral, ethical, and professional standards, shaping responsible and principled professionals.</p>
+                            <p class="text-justify">Our mission at Senghundhar College of Pharmacy is multi-faceted: Pharma Education and Talent Development: We are committed to providing pharmaceutical education and unlocking the hidden talents of students from rural backgrounds, recognizing the vital role they play in our nation's development. Innovative Teaching Methods: We employ innovative, practical-oriented teaching methods to ensure a comprehensive learning experience, fostering an atmosphere conducive to academic and professional growth. Cutting-edge Research: Our mission includes designing cutting-edge research in the field of pharmaceutical sciences, drug development, and clinical pharmacy, contributing to advancements in the pharmaceutical industry. Intellectual Property Development: We actively promote and support both national and international intellectual property development, encouraging students to engage in creative and innovative endeavors. Entrepreneurial Spirit and Ethical Standards: We foster an entrepreneurial spirit among our students, encouraging them to explore entrepreneurial opportunities in the pharmaceutical sector. Additionally, we prioritize the inculcation of high moral, ethical, and professional standards, shaping responsible and principled professionals.</p>
                         </div>
                     </div>
                 </div>
