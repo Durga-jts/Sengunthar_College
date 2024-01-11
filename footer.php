@@ -75,6 +75,10 @@
                                     <p><i class="fa fa-envelope mr-2"></i>info@senguntharpharmacycollege.org  </p>
                                     <p>admissions@senguntharpharmacycollege.org</p>
                                 </div>
+                                <div class="address">
+                                    <!-- <h6>WEBSITE LINK</h6> -->
+                                    <p><i class="fa fa-globe mr-2"></i>http://www.scpt.co.in/ </p>         <!--<a href="http://vaaraahi.co.in" target="_blank">vaaraahi.co.in</a>-->
+                                </div>
                                 
                             </div>
                         </div>
@@ -86,7 +90,7 @@
                     </ul>
                 </div>
                 <div class="footer-bottom">
-                    <p>Copyright © 2024 <span><a class="primary-color" href="" target="_blank"></a> </span> - All Rights Reserved. Made by <span><a class="primary-color" href="#" target="_blank">Vaarahi</a></span><img src="assets\images\vaarahi-logo.png" class="ml-3"></p>
+                    <p>Copyright ©2024 <span><a class="primary-color" href="" target="_blank"></a> </span> - All Rights Reserved. Made by <span><a class="primary-color" href="#" target="_blank">Vaarahi</a></span><img src="assets\images\vaarahi-logo.png" class="ml-3"></p>
                     
                 </div>
             </div>

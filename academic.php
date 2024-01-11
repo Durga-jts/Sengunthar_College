@@ -88,6 +88,88 @@
     </div>
     <!-- academic body1 area end -->  
     
+
+    <!-- course area start -->
+    <div class="course-area  pt--0 pb--50 mt-2 mt-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6  ml-4">
+                    <div class="section-title">
+                        <span class="text-uppercase">Build your career</span>
+                        <h2>Featured Courses </h2> 
+                    </div>
+                </div>
+            </div>
+  
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-md-3 course-details" id="bpharm">
+                        <div class="row justify-content-center">
+                            <img src="assets/images/doctor1.png" class="img-fluid rounded-circle" alt="Doctor Image" style="width: 150px; height: 150px;">
+                        </div>
+
+                        <div class="row justify-content-center mt-2">
+                            <h6><a href="#">B.Pharm </a></h6>
+                        </div>
+
+                        <div class="row justify-content-center ">
+                            <h6><a href="#">(Bachelor of Pharmacy)  </a></h6>
+                        </div>
+
+                        <div class="row justify-content-center">
+                        <a class="btn btn-primary btn-round btn-sm" href="#" onclick="showBlog1()"> Read More </a>
+                        </div>
+                        
+                    </div>
+                    <div class="col-md-3 course-details" id="dpharm">
+                        <div class="row justify-content-center">
+                            <img src="assets/images/doctor2.png" class="img-fluid rounded-circle" alt="Doctor Image" style="width: 150px; height: 150px;">
+                        </div>
+
+                        <div class="row justify-content-center mt-2">
+                            <h6><a href="#">D.Pharm</a></h6>
+                        </div>
+
+                        <div class="row justify-content-center ">
+                            <h6><a href="#">(Diploma in Pharmacy) </a></h6>
+                        </div>
+
+                    </div>
+                    <div class="col-md-3 course-details" id="mpharm">
+                        <div class="row justify-content-center">
+                            <img src="assets/images/doctor3.png" class="img-fluid rounded-circle" alt="Doctor Image" style="width: 150px; height: 150px;">
+                        </div>
+
+                        <div class="row justify-content-center mt-2">
+                            <h6><a href="#">M.Pharm </a></h6>
+                        </div>
+
+                        <div class="row justify-content-center ">
+                            <h6><a href="#">(Master of Pharmacy)</a></h6>
+                        </div>
+
+                    </div>
+                    <div class="col-md-3 course-details" id="pharmd">
+                        <div class="row justify-content-center">
+                            <img src="assets/images/doctor4.png" class="img-fluid rounded-circle" alt="Doctor Image" style="width: 150px; height: 150px;">
+                        </div>
+
+                        <div class="row justify-content-center mt-2">
+                            <h6><a href="#">(Pharm. D)</a></h6>
+                        </div>
+
+                        <div class="row justify-content-center ">
+                            <h6><a href="#">(Doctor of Pharmacy) </a></h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+    <!-- course area end -->
+
     <!-- academic course area start -->
     <div class="course-area  pt--0 pb--50">
         <div class="container-fluid">
@@ -103,7 +185,7 @@
             <div class="commn-carousel owl-carousel card-deck"> 
                 <div class="card mb-5 text-center text-md-left">
                     <div class="course-thumb">
-                        <img src="assets/images/bpharm_1.jpg" alt="image">
+                        <img src="assets/images/course1.webp" alt="image">
                         
                     </div>
                     <div class="card-body p-25"> 
@@ -145,7 +227,7 @@
  
                 <div class="card mb-5 text-center text-md-left">
                     <div class="course-thumb">
-                        <img src="assets/images/doctor2.jpg" alt="image">
+                        <img src="assets/images/course2.webp" alt="image">
                         
                     </div>
                     <div class="card-body  p-25"> 
@@ -188,7 +270,7 @@
   
                 <div class="card mb-5 text-center text-md-left">
                     <div class="course-thumb">
-                        <img src="assets/images/mpharm_1.jpeg" alt="image">
+                        <img src="assets/images/course3.webp" alt="image">
                         
                     </div>
                     <div class="card-body  p-25"> 
@@ -229,7 +311,7 @@
 
                 <div class="card mb-5 text-center text-md-left">
                     <div class="course-thumb">
-                        <img src="assets/images/doctor4.jpg" alt="image">
+                        <img src="assets/images/course4.webp" alt="image">
                         
                     </div>
                     <div class="card-body  p-25"> 

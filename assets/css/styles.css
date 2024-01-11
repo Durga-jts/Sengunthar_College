@@ -226,7 +226,51 @@ body {
 }
 /* ACADEMICS END HEREE */
 
+/* Gallery */
+.gallery-container{
+  margin-top: 10%;
+  margin-bottom:5%;
+}
+/* Gallery end */
 
+
+/* Why choose us? start */
+.why-choose-us-section-container{
+  /* background-color: #f5f5f5; */
+  padding:20px;
+}
+.circle {
+  width: 110px;
+  height: 110px;
+  background:radial-gradient(circle, rgb(149 34 15) 0%, rgb(149 34 15) 100%);;
+  border-radius: 50%;
+  /* margin: 20px auto; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.circle:hover .img-icon{
+  transform: rotateY(360deg); 
+  transition: transform 1.5s ease; 
+}
+
+.circle:hover .span-content {
+  color: orange;
+  transition: color 0.5s ease;
+}
+
+.img-icon{
+  width:45px;
+}
+
+.span-content{
+  display:block;
+}
+/* Why choose us? end */
 h1,
 h2,
 h3,
@@ -1879,7 +1923,7 @@ span.post-date i {
 .crumbs-area {
   position: relative;
   z-index: 1;
-  background: url(../images/in_b_1.png);
+  background: url(../images/about-banner.png);
   padding: 213px 0 114px;
   background-size: cover;
 }

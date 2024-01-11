@@ -57,7 +57,7 @@
     <div class="crumbs-area">
         <div class="container">
             <div class="crumb-content">
-                <h4 class="crumb-title"><span>About </span>Us</h4>
+                <h4 class="crumb-title"><span>About </span>College</h4>
             </div>
         </div>
     </div>
@@ -69,7 +69,7 @@
                 <div class="col-lg-6">
                     <div class="about-left-content">
                         <div class="section-title">
-                             <span class="text-uppercase">about us</span>
+                             <span class="text-uppercase">about college</span>
                             <h2>Welcome to</h2><h2><span class="primary-color">Senghundhar College of Pharmacy</span></h2> 
                         </div>
                         <p>Established in 2017, Senghundhar College of Pharmacy is dedicated to achieving excellence in Pharmacy Education. Affiliated with the prestigious “The Tamil Nadu Dr. MGR Medical University” in Chennai and approved by the Pharmacy Council of India (PCI), New Delhi, under section 12 of the Pharmacy Act, our institution aims to redefine education, particularly for rural students in India.

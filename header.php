@@ -70,14 +70,14 @@
                                                 <li><a href="course-details.html">course details</a></li>
                                             </ul> -->
                                         </li>
-                                        <li><a href="#">Gallery </a>
+                                        <li><a href="gallery.php">Gallery </a>
                                             <!-- <ul class="submenu">
                                                 <li><a href="blog.html">blog</a></li>
                                                 <li><a href="blog-details.html">blog details</a></li>
                                             </ul> -->
                                         </li>
                                         <li><a href="#">Careers </a></li>
-                                        <li><a href="#">Contact us </a></li>
+                                        <li><a href="contact.php">Contact us </a></li>
                                     </ul>
                                 </nav>
                             </div>

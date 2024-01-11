@@ -130,7 +130,7 @@
                          <h2>Welcome to</h2><h2><span class="primary-color">Sengunthar College of Pharmacy</span></h2> 
                     </div>
                     <p class="text-justify">Established in 2017, Senghundhar College of Pharmacy is dedicated to achieving excellence in Pharmacy Education. Affiliated with the prestigious “The Tamil Nadu Dr. MGR Medical University” in Chennai and approved by the Pharmacy Council of India (PCI), New Delhi, under section 12 of the Pharmacy Act, our institution aims to redefine education, particularly for rural students in India. Our college creates an environment that instills a strong work ethic, discipline, and a set of principles that will empower students for their future studies and careers. We take pride in offering enhanced hands-on training, well-established infrastructure, a well-resourced library, industrial visits, guest lectures, workshops, symposiums, conferences, and student exhibitions.</p>
-                    <a class="btn btn-primary btn-round" href="#">Read more</a>
+                    <a class="btn btn-primary btn-round" href="about-us.php">Read more</a>
                 </div>
             </div>
             <div class="col-lg-6">
@@ -193,12 +193,122 @@
 </div>
 <!-- Principal's Message Section End -->
 
-<!-- Course area -->
+<!-- Course area start -->
 
+<div class="course-area  pt--0  pb--50  mt-2 mt-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6  ml-4">
+                    <div class="section-title">
+                        <span class="text-uppercase">Why choose</span>
+                        <h2>Sengunthar College of Pharmacy? </h2> 
+                    </div>
+                </div>
+            </div>
 
+            <div class="why-choose-us-section ">
+                <div class="container  why-choose-us-section-container">
+                    <!-- First Row -->
+                    
+                    <div class="row justify-content-center ">
+                        <a>
+                            <div class="mx-4">
+                                <div class="circle"><img class="img-icon" src="assets/images/a1.webp"></div>
+                            </div>
+                                <span class="span-content text-center mt-2">Academic<br>Excellence</span>
+
+                        </a>
+                        <a>
+                            <div class="mx-4">
+                                <div class="circle"><img class="img-icon" src="assets/images/a2.webp"></div>
+                            </div>
+                                <span class="span-content text-center mt-2">State-of-the-Art <br>Facilities</span>
+                        </a>
+                        <a>
+                            <div class="mx-4">
+                                <div class="circle"><img class="img-icon" src="assets/images/a3.webp"></div>
+                            </div>
+                                <span class="span-content text-center mt-2">Experienced <br>Faculty</span>
+                        </a>
+                        <a>
+                            <div class="mx-4">
+                                <div class="circle"><img class="img-icon" src="assets/images/a4.webp"></div>
+                            </div>
+                                <span class="span-content text-center mt-2">Holistic <br>Development</span>
+                        </a>
+                        <a>
+                            <div class="mx-4">
+                               <div class="circle"><img class="img-icon" src="assets/images/a5.webp"></div>
+                            </div>
+                                <span class="span-content text-center mt-2">Career Guidance<br> and Placement</span>
+                        </a>
+                        <a>
+                            <div class="mx-4">
+                                <div class="circle"><img class="img-icon" src="assets/images/a6.webp"></div>
+                            </div>
+                                <span class="span-content text-center mt-2">Counselling and <br>Support</span>
+                        </a>
+                        <a>
+                            <div class="mx-4">
+                               <div class="circle"><img class="img-icon" src="assets/images/a7.webp"></div>
+                            </div>
+                                <span class="span-content text-center mt-2">Research <br>Opportunities</span>
+                        </a>
+                    </div>
+
+                        <!-- Second Row -->
+                    <div class="row justify-content-center mt-5">
+                        <a>
+                            <div class="mx-4">
+                                <div class="circle"><img class="img-icon" src="assets/images/a8.webp"></div>
+                            </div>
+                                <span class="span-content text-center mt-2">Diverse Campus <br>Life</span>
+                        </a>
+                        <a>
+                            <div class="mx-4">
+                                <div class="circle"><img class="img-icon" src="assets/images/a9.webp"></div>
+                            </div>
+                                <span class="span-content text-center mt-2">Environmental <br>Awareness</span>
+                        </a>
+                        <a>
+                            <div class="mx-4">
+                                <div class="circle"><img class="img-icon" src="assets/images/a10.webp"></div>
+                            </div>
+                                <span class="span-content text-center mt-2">Access to <br>Healthcare</span>
+                        </a>
+                        <a>
+                            <div class="mx-4">
+                                <div class="circle"><img class="img-icon" src="assets/images/a11.webp"></div>
+                            </div>
+                                <span class="span-content text-center mt-2">Wi-Fi Connectivity</span>
+                        </a>
+                        <a>
+                            <div class="mx-4">
+                                <div class="circle"><img class="img-icon" src="assets/images/a12.webp"></div>
+                            </div>
+                                <span class="span-content text-center mt-2">Supportive <br>Leadership</span>
+                        </a>
+                        <a>
+                            <div class="mx-4">
+                                <div class="circle"><img class="img-icon" src="assets/images/a13.webp"></div>
+                            </div>
+                                <span class="span-content text-center mt-2">Proven Track <br>Record</span>
+                        </a>
+                        <a>
+                            <div class="mx-4">
+                                <div class="circle"><img class="img-icon" src="assets/images/a14.webp"></div>
+                            </div>
+                                <span class="span-content text-center mt-2">Comprehensive <br>Facilities</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
 <!-- Course end -->
+
     <!-- course area start -->
-    <div class="course-area  pt--0 pb--50 mt-2 mt-5">
+    <!-- <div class="course-area  pt--0 pb--50 mt-2 mt-5">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-6  ml-4">
@@ -271,7 +381,7 @@
             
             
         </div>
-    </div>
+    </div> -->
     <!-- course area end -->
 
     <!-- Infrastructure -->
@@ -353,7 +463,7 @@
                         <div class="col-md-3">
                             <div class="g-img" style="height:50%">
                                 <a href="assets/images/doctor3.jpg" class="fancybox" rel="ligthbox" title="Two Days National Seminar on India as an Ideal Power: Role in G20 UNO & International Order - Organized by the Dept of Politics & Public Administration">
-                                    <img src="assets/images/gallery1.png" style="min-height:100%;" class="zoom" loading="lazy">
+                                    <img src="assets/images/homepage-events1.png" style="min-height:100%;" class="zoom" loading="lazy">
                                 </a>
                                     <div class="row cont mt-1">
                                         <div class="col-md-12 text-justify">
@@ -366,7 +476,7 @@
                         <div class="col-md-3">
                             <div class="g-img" >
                                 <a href="assets/images/doctor3.jpg" class="fancybox" rel="ligthbox" title="No violence against women - Department of Women's Studies">
-                                    <img src="assets/images/gallery2.png" style="min-height:100%;" class="zoom" loading="lazy">
+                                    <img src="assets/images/homepage-events2.png" style="min-height:100%;" class="zoom" loading="lazy">
                                 </a>
                                 <div class="row cont mt-1">
                                     <div class="col-md-12 text-justify">
@@ -379,7 +489,7 @@
                         <div class="col-md-3">
                             <div class="g-img">
                                     <a href="/img/gallery/DLL.jpg" class="fancybox" rel="ligthbox" title="National Colloquium on Life Skills for Employability in Mass Media - Departments of Lifelong Learning">
-                                        <img src="assets/images/gallery3.png" style="min-height:100%;" class="zoom" loading="lazy">
+                                        <img src="assets/images/homepage-events3.png" style="min-height:100%;" class="zoom" loading="lazy">
                                     </a>
                                     <div class="row cont  mt-1">
                                         <div class="col-md-12 text-justify">
@@ -392,7 +502,7 @@
                         <div class="col-md-3">
                             <div class="g-img" style="height:30%;">
                                 <a href="/img/gallery/sss-123.jpg" class="fancybox" rel="ligthbox" title="Community Radio Programme on WORLD SOIL DAY">
-                                    <img src="assets/images/gallery4.png" style="min-height:100%;" class="zoom" loading="lazy">
+                                    <img src="assets/images/homepage-events4.png" style="min-height:100%;" class="zoom" loading="lazy">
                                 </a>
                                 <div class="row cont mt-1">
                                     <div class="col-md-12 text-center">
