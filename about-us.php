@@ -92,8 +92,8 @@
     <!-- about area end -->
 
  
-<!-- Vision and Mission area start -->
-<div class="vision-mission-area ptb--90">
+<!-- Vision and Vission area start -->
+<div class="vision-Vission-area ptb--50">
     <div class="container-fluid">
         <div class="row">
             <!-- Vision Card -->
@@ -116,7 +116,7 @@
             <!-- Mission Card -->
             <div class="row mt-3">
                 <div class="col-md-2">
-                    <img src="assets/images/mission.pgn" alt="image 1" style="width:100%;">
+                    <img src="assets/images/mission.png" alt="image 1" style="width:100%;">
                 </div>
                 <div class="col-md-10">
                     <div class="card">

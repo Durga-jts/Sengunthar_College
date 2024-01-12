@@ -42,6 +42,17 @@ body {
   line-height: 26px;
 }
 
+#thankYouMessage {
+  display: none;
+  padding: 20px;
+  background-color: #dff0d8;
+  border: 1px solid #3c763d;
+  color: #3c763d;
+  margin-top: 10px;
+  height:200px;
+  text-align: center;
+}
+
 .infrastructure {
   height: 200px;
   position: relative;
@@ -55,7 +66,7 @@ body {
   width: 120%;
   /* top: 50%;
   left: 60%; */
-  font-size: 25px;
+  font-size: 20px;
   /* -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%); */
 }
@@ -224,6 +235,11 @@ body {
   background: #fff;
   color: #fc9928 !important;
 }
+
+.card-size{
+  max-height:1000px;
+  height:auto;
+}
 /* ACADEMICS END HEREE */
 
 /* Gallery */
@@ -299,6 +315,36 @@ body {
   margin-top:10%;
 }
 /* Facilities End */
+
+/* Career */
+.validation-message {
+          color: red;
+          font-size: 12px;
+          margin-top: 5px;
+      }
+.apply_form{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ 
+}
+/* Career */
+
+/* Admission start */
+.bg_dark_9 {
+  background-color: #f5f5f5;
+}
+.form-group {
+  margin-bottom: 1rem;
+}
+.form-control{
+  line-height: 2.5;
+  font-size: 12px;
+}
+.validation-message {
+          color: red;
+          font-size: 12px;
+          margin-top: 5px;
+      }
+/* Admission */
 h1,
 h2,
 h3,
@@ -434,6 +480,7 @@ a:hover {
 }
 .btn-round {
   border-radius: 50px;
+  margin-top:auto;
 }
 .primary-bg {
   background-color: #fc9928;
@@ -955,7 +1002,7 @@ a.expand-video:hover {
 
 .about-area {
   overflow: hidden;
-  margin-top: 5%;
+  margin-top: 2%;
 
 }
 
@@ -998,8 +1045,13 @@ a.expand-video:hover {
 }
 .card {
  height:auto;
+ max-height:100%;
   transition: all 0.3s ease 0s;
   
+}
+
+.btn-round{
+  margin-top:auto;
 }
 .course-thumb {
   position: relative;
@@ -1085,6 +1137,7 @@ ul.course-meta-stats li i {
 
 .card {
   border-color: rgba(0, 0, 0, 0.07) !important;
+  height: auto;
 }
 .course-meta-details li:last-child {
   border-right: 0 none;
@@ -2618,7 +2671,7 @@ h4.comment-title {
 .cnt-title {
   text-align: center;
   padding-top: 30px;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 
 .cnt-title h4 {
@@ -2661,6 +2714,11 @@ h4.comment-title {
 }
 
 .contact-form {
+  width:500px;
+  margin-left: 30%;
+  padding:5%;
+  border: 1px solid #ddd; /* Define your border color */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Add a light box shadow */
 }
 
 .contact-form form input,

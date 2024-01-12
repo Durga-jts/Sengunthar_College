@@ -24,23 +24,7 @@
     <!-- modernizr css -->
     <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
 
-    <style>
-        .bg_dark_9 {
-    background-color: #f5f5f5;
-}
-.form-group {
-    margin-bottom: 1rem;
-}
-.form-control{
-    line-height: 2.5;
-    font-size: 1em;
-}
-.validation-message {
-            color: red;
-            font-size: 12px;
-            margin-top: 5px;
-        }
-    </style>
+
 </head>
 
 <body>
@@ -52,19 +36,18 @@
         <div class="loader"></div>
     </div> -->
     <!-- prealoader area end -->
-    <!-- header area start -->
 
-    <!-- /* Header */ -->
-<?php include("header.php"); ?>
-
+    <!-- header start -->
+    <?php include("header.php"); ?>
     <!-- header area end -->
+
     <!-- offset search area start -->
-    <div class="offset-search">
+    <!-- <div class="offset-search">
         <form action="#">
             <input type="text" name="search" placeholder="Search here...">
             <button type="submit"><i class="fa fa-search"></i></button>
         </form>
-    </div>
+    </div> -->
     <!-- offset search area end -->
     <!-- body overlay area start -->
     <div class="body_overlay"></div>
@@ -78,13 +61,13 @@
         </div>
     </div>
     <!-- apply content start -->
-    <div class="about-area ptb--10">
+    <div class="about-area ">
         <div class="container-fluid">
             <div class="row justify-content-center">
                 <div class="section-title">
                     <h2><span>Apply this form to admission</span></h2>
                 
-                    <form action="#" class="apply_form bg_dark_9 p-5 mt-5" id="blog1" >
+                    <form action="admission-process_form\.php" onsubmit="showThankYouMessage(); return false;" class="apply_form bg_dark_9 p-5 mt-5" id="blog1" >
                         <div class="content mb-5">
                             <h3 class="primary-color">College Admissions Form</h3>
                             <p>Enter your admission information below</p>
@@ -95,14 +78,14 @@
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="user_first_name">Enter First Name</label>
-                                    <input type="text" class="form-control" id="user_first_name" placeholder="First Name" required>
+                                    <input type="text" class="form-control" id="user_first_name" name="user_first_name"placeholder="First Name" required>
                                     <span class="validation-message" id="first-name-validation"></span>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="user_last_name">Enter Last Name</label>
-                                    <input type="text" class="form-control" id="user_last_name" placeholder="Last Name" required>
+                                    <input type="text" class="form-control" id="user_last_name" name="user_last_name" placeholder="Last Name" required>
                                     <span class="validation-message" id="last-name-validation"></span>
                                 </div>
                             </div>
@@ -111,13 +94,13 @@
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="dob">Date of Birth:</label>
-                                    <input type="date" class="form-control" name="dob">
+                                    <input type="date" class="form-control" name="dob" id="dob">
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="gender">Gender:</label>
-                                    <select id="gender" class="form-control" name="gender" style="height:3.3em;">
+                                    <select id="gender" class="form-control" id="gender" name="gender" style="height:3.3em;">
                                       <option value="" class="form-control">Select Gender</option>
                                       <option value="male" class="form-control">Male</option>
                                       <option value="female" class="form-control">Female</option>
@@ -129,13 +112,13 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <label for="user_class">Class you want to apply for*</label>
-                                    <select name="user_class" class="form-control" id="user_class"   style="height:3.3em;">
-                                        <option value="5">Choose one</option>
-                                        <option value="1">B.Pharm (Bachelor of Pharmacy)</option>
-                                        <option value="2">D.Pharm (Diploma in Pharmacy)</option>
-                                        <option value="3">M.Pharm (Master of Pharmacy)</option>
-                                        <option value="4">Doctor of Pharmacy(Pharm.D)</option>
+                                    <label for="user_class">Course</label>
+                                    <select class="form-control" name="course_class" id="course_class"  style="height:3.3em;">
+                                        <option>Choose one</option>
+                                        <option>B.Pharm (Bachelor of Pharmacy)</option>
+                                        <option>D.Pharm (Diploma in Pharmacy)</option>
+                                        <option>M.Pharm (Master of Pharmacy)</option>
+                                        <option>Doctor of Pharmacy(Pharm.D)</option>
                                         
                                     </select>
                                 </div>
@@ -145,14 +128,14 @@
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="user_last_name">Email</label>
-                                    <input type="text" class="form-control" id="user_email" placeholder="example@gmail.com">
+                                    <input type="text" class="form-control" name="user_email" id="user_email" placeholder="example@gmail.com">
                                     <span class="validation-message" id="email-validation"></span>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="user_last_name">Phone Number</label>
-                                    <input type="number" class="form-control" id="user_phone" placeholder="xxxxxxxxxx">
+                                    <input type="number" class="form-control" id="user_phone" name="user_phone" placeholder="xxxxxxxxxx">
                                     <span class="validation-message" id="phone-validation"></span>
                                 </div>
                             </div>
@@ -161,13 +144,15 @@
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="guardian_first_name">Parents/ Guardian Name</label>
-                                    <input type="text" id="guardian_first_name" class="form-control" placeholder="Name">
+                                    <input type="text" id="guardian_first_name" name="guardian_first_name" class="form-control" placeholder="Name" required>
+                                    <span class="validation-message" id="guardian-name-validation"></span>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="guardian_last_name">Parents/ Guardian Occupation</label>
-                                    <input type="text" id="guardian_occupation" class="form-control" placeholder="Occupation...">
+                                    <input type="text" id="guardian_occupation" name="guardian_occupation" class="form-control" placeholder="Occupation...">
+                                    <span class="validation-message" id="guardian-occupation-validation"></span>
                                 </div>
                             </div>
                         </div>
@@ -175,7 +160,7 @@
                             <div class="col-md-12">
                                 <div class="form-group">
                                     <label for="std_address">Student's Address</label>
-                                    <input type="text" id="std_address" class="form-control" placeholder="State Address">
+                                    <input type="text" id="std_address" name="std_address" class="form-control" placeholder="State Address">
                                 </div>
                             </div>
                         </div>
@@ -183,13 +168,13 @@
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="user_city">City</label>
-                                    <input type="text" id="user_city" class="form-control" placeholder="City">
+                                    <input type="text" id="user_city" name="user_city" class="form-control" placeholder="City">
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="user_last_name">State</label>
-                                    <input type="text" id="user_state" class="form-control" placeholder="State">
+                                    <input type="text" id="user_state" name="user_state" class="form-control" placeholder="State">
                                 </div>
                             </div>
                         </div>
@@ -197,300 +182,45 @@
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="user_city">Pincode</label>
-                                    <input type="number" id="user_pincode" class="form-control" placeholder="Pincode">
+                                    <input type="number" id="user_pincode" name="user_pincode" class="form-control" placeholder="Pincode">
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="user_last_name">Country</label>
-                                    <input type="text" id="user_country" class="form-control" placeholder="Country">
+                                    <input type="text" id="user_country" name="user_country" class="form-control" placeholder="Country">
                                 </div>
                             </div>
                         </div>
-                        <div class="text-right mt-4">
-                        <a href="#" class="btn btn-primary" onclick="validateForm()">Next</a>
+                        <div class="text-center mt-4">
+                        <button type="submit" href="#" class="btn btn-primary" onclick="validateForm()">Submit</button>
                     </div>   
                     </form>
                  <!-- College Application End  -->
-                <!-- Class XII Start-->
-                <form action="#" class="apply_form bg_dark_9 p-5 mt-5" id="blog2" style="display: none;">
-                    <div class="content mb-5">
-                        <h3 class="primary-color">Education</h3>
-                        <h4>Class XII</h4>
-                        <hr></hr>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <label for="user_first_name">Name of the School</label>
-                                <input type="text" id="name_schl" class="form-control"  placeholder="First Name">
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <label for="user_last_name">Board</label>
-                                <input type="date" id="board" class="form-control" name="dob">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <label for="user_first_name">XII Mark</label>
-                                <input type="number" id="mark" class="form-control"  placeholder="">
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <label for="user_last_name">Out of</label>
-                                <input type="number" id="out_of" class="form-control"  placeholder="">
-                            </div>
-                        </div>
-                    </div>
-                <div class="row">
-                    
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <label for="std_address">School Address</label>
-                                <input type="text" id="std_address" class="form-control" placeholder="School Address">
-                            </div>
-                            
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <label for="std_city"></label>
-                                <input type="text" id="user_city" class="form-control mt-2" placeholder="City">
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <label for="std_city"></label>
-                                <input type="text" id="user_state" class="form-control mt-2" placeholder="State">
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <label for="std_city"></label>
-                                <input type="text" id="user_country" class="form-control mt-2" placeholder="Country">
-                            </div>
-                        </div>     
-                </div>  
-                 <!-- Class XII  End--> 
-                <!-- Class X  -->
-                <div class="content mb-5"> 
-                    <h4>Class X</h4>
-                    <hr></hr>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="user_first_name">Name of the School</label>
-                            <input type="text" id="name_schl1" class="form-control"  placeholder="First Name">
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="user_last_name">Board</label>
-                            <input type="date" id="board1" class="form-control" name="dob">
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="user_first_name">X Mark</label>
-                            <input type="number" id="mark1" class="form-control"  placeholder="">
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="user_last_name">Out of</label>
-                            <input type="number" id="out_of1" class="form-control"  placeholder="">
-                        </div>
-                    </div>
-                </div>
-            <div class="row">
                 
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="std_address">School Address</label>
-                            <input type="text" id="std_address1" class="form-control" placeholder="School Address">
-                        </div>
-                        
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="std_city"></label>
-                            <input type="text" id="user_city1" class="form-control mt-2" placeholder="City">
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="std_city"></label>
-                            <input type="text" id="user_state1" class="form-control mt-2" placeholder="State">
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="std_city"></label>
-                            <input type="text" id="user_country1" class="form-control mt-2" placeholder="Country">
-                        </div>
-                    </div>     
-            </div>  
-             <!-- Class X  End-->
-             <!-- Class XI Start-->
-             <div class="content mb-5"> 
-                <h4>Class XI</h4>
-                <hr></hr>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="form-group">
-                        <label for="user_first_name">Name of the School</label>
-                        <input type="text" id="name_schl2" class="form-control"  placeholder="First Name">
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="form-group">
-                        <label for="user_last_name">Board</label>
-                        <input type="date" id="board2" class="form-control" name="dob">
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="form-group">
-                        <label for="user_first_name">XI Mark</label>
-                        <input type="number" id="mark2" class="form-control"  placeholder="">
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="form-group">
-                        <label for="user_last_name">Out of</label>
-                        <input type="number" id="out_of2" class="form-control"  placeholder="">
-                    </div>
-                </div>
-            </div>
-        <div class="row">
-            
-                <div class="col-md-6">
-                    <div class="form-group">
-                        <label for="std_address">School Address</label>
-                        <input type="text" id="std_address2" class="form-control" placeholder="School Address">
-                    </div>
-                    
-                </div>
-                <div class="col-md-6">
-                    <div class="form-group">
-                        <label for="std_city"></label>
-                        <input type="text" id="user_city2" class="form-control mt-2" placeholder="City">
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="form-group">
-                        <label for="std_city"></label>
-                        <input type="text" id="user_state2" class="form-control mt-2" placeholder="State">
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="form-group">
-                        <label for="std_city"></label>
-                        <input type="text" id="user_country2" class="form-control mt-2" placeholder="Country">
-                    </div>
-                </div>     
-        </div>  
-                <div class="d-flex justify-content-between mt-4">
-                    <a href="#" class="btn btn-primary" onclick="show2()">Back</a>
-                    <a href="#" class="btn btn-primary" onclick="validateform2()">Next</a>
-                </div>
-                 <!-- Class XI End -->
-                </form> 
-
-                <form action="#" class="apply_form bg_dark_9 p-5 mt-5" id="blog3" style="display: none;">
-                    <div class="content mb-5">
-                        <h3 class="primary-color">Admission Fee</h3>
-                        <h4>Payment Details</h4>
-                        <hr></hr>
-                    </div>
-                    Accepted Card <br>
-				<img src="assets/images/card1.png" width="108">
-				<img src="assets/images/card2.png" width="50">
-               
-				<div class="row mt-5">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="user_first_name">Credit card number</label>
-                            <input type="number" class="form-control"  placeholder="">
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="user_class">Exp Month</label>
-                            <!-- <select name="user_class" id="user_class" class="form-control"  style="height:3.3em;">
-                                <option value="5">Choose one</option>
-                                <option value="1">B.Pharm (Bachelor of Pharmacy)</option>
-                                <option value="2">D.Pharm (Diploma in Pharmacy)</option>
-                                <option value="3">M.Pharm (Master of Pharmacy)</option>
-                                <option value="4">Doctor of Pharmacy(Pharm.D)</option>
-                                
-                            </select> -->
-                            <select name="user_class" id="user_class" class="form-control"  style="height:3.3em; font-size:1em;">
-                                <option>Choose Month..</option>
-                                <option>January</option>
-                                <option>February</option>
-                                <option>March</option>
-                                <option>April</option>
-                                <option>May</option>
-                                <option>June</option>
-                                <option>July</option>
-                                <option>August</option>
-                                <option>September</option>
-                                <option>October</option>
-                                <option>November</option>
-                                <option>December</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="user_class">Exp Year</label>
-                            <!-- <select name="user_class" id="user_class" class="form-control"  style="height:3.3em;">
-                                <option value="5">Choose one</option>
-                                <option value="1">B.Pharm (Bachelor of Pharmacy)</option>
-                                <option value="2">D.Pharm (Diploma in Pharmacy)</option>
-                                <option value="3">M.Pharm (Master of Pharmacy)</option>
-                                <option value="4">Doctor of Pharmacy(Pharm.D)</option>
-                                
-                            </select> -->
-                           <select name="user_class" id="user_class" class="form-control"  style="height:3.3em;  font-size:1em;">
-                                <option>Choose Year..</option>
-                                <option>2024</option>
-                                <option>2025</option>
-                                <option>2026</option>
-                                <option>2027</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="user_class">CVV</label>
-                            <input type="number" class="form-control"  placeholder="">
-                        </div>
-                    </div>
-                </div>
-                <div class="d-flex justify-content-between mt-4">
-                    <a href="#" class="btn btn-primary" onclick="show4()">Back</a>
-                    <a href="#" class="btn btn-primary" onclick="validateform3()">Submit</a>
-                </div>
-                </form>
             </div>
             </div>
         </div>
     </div>
-    <!-- /* Footer */ -->
-<?php include("footer.php"); ?>
+
+     <!-- Thank You message box -->
+     <div id="thankYouMessage">
+        Thank you for submitting the form!
+    </div>
+
+    <script>
+        function showThankYouMessage() {
+            // Hide the form
+            document.getElementById('myForm').style.display = 'none';
+            
+            // Show the thank you message
+            document.getElementById('thankYouMessage').style.display = 'block';
+        }
+
+    <!-- footer start -->
+    <?php include("footer.php"); ?>
+    <!-- footer area end -->
+
     </body>
    <!-- jquery latest version -->
     <script src="assets/js/vendor/jquery-2.2.4.min.js"></script>
@@ -568,12 +298,12 @@
              return;
          }
  
-         // Validate Class
-         var user_class = $('[name="user_class"]').val();
-         if (!user_class) {
-             $('[name="user_class"]').focus();
-             return;
-         }
+         var selectedCourse = $('#course_class').val();
+
+if (selectedCourse === 'Choose one') {
+    $('#course_class').focus();
+    return;
+}
  
          // Validate Email
          var email = $('#user_email').val();
@@ -599,20 +329,25 @@
          
          
          // Validate Parents/Guardian Name
-         var guardianName = $('#guardian_first_name').val();
-         if (!guardianName) {
-             // alert('Please enter the parents/guardian name.');
+         var guardian_name = $('#guardian_first_name').val();
+         if (guardian_name.length < 3) {
              $('#guardian_first_name').focus();
+             $('#guardian-name-validation').text('Please enter a valid name');
              return;
+         } else {
+             $('#guardian-name-validation').text('');
          }
  
          // Validate Parents/Guardian Occupation
-         var guardianOccupation = $('#guardian_occupation').val();
-         if (!guardianOccupation) {
+         var guardian_occupation = $('#guardian_occupation').val();
+         if (guardian_occupation.length < 3) {
              $('#guardian_occupation').focus();
-             // alert('Please enter the parents/guardian occupation.');
+             $('#guardian-occupation-validation').text('Please enter a valid input');
              return;
+         } else {
+             $('#guardian-occupation-validation').text('');
          }
+ 
  
          // Validate Student's Address
          var studentAddress = $('#std_address').val();
@@ -679,11 +414,36 @@ if (!pinCode || !isValidPinCode(pinCode)) {
     return pinCodeRegex.test(pinCode);
 }
 
-// function isValidMark(mark) {
-//     // You can modify this validation based on your specific requirements
-//     var markRegex = /^\d{2,4}$/;
-//     return markRegex.test(mark);
-// }
+function isValidMark(mark) {
+    // You can modify this validation based on your specific requirements
+    var markRegex = /^\d{2,4}$/;
+    return markRegex.test(mark);
+}
+function isoutMark(out_of) {
+    // You can modify this validation based on your specific requirements
+    var markRegex = /^\d{3,4}$/;
+    return markRegex.test(out_of);
+}
+function isValidMark(mark1) {
+    // You can modify this validation based on your specific requirements
+    var markRegex = /^\d{2,4}$/;
+    return markRegex.test(mark1);
+}
+function isoutMark(out_of1) {
+    // You can modify this validation based on your specific requirements
+    var markRegex = /^\d{3,4}$/;
+    return markRegex.test(out_of1);
+}
+function isValidMark(mark2) {
+    // You can modify this validation based on your specific requirements
+    var markRegex = /^\d{2,4}$/;
+    return markRegex.test(mark2);
+}
+function isoutMark(out_of2) {
+    // You can modify this validation based on your specific requirements
+    var markRegex = /^\d{3,4}$/;
+    return markRegex.test(out_of2);
+}
  </script>
 
 <script>
@@ -698,54 +458,52 @@ if (!pinCode || !isValidPinCode(pinCode)) {
                     $('#board').focus();
                     return;
                 }
-//                 var mark = $('#mark').val();
-// if (!mark || !isValidMark(mark)) {
-//     $('#mark').focus();
-//     $('#mark-validation').text('Please enter a valid mark (2 to 4 digits).');
-//     return;
-// } else {
-//     $('#mark-validation').text('');
-// }
-                var out_of = $('#out_of').val();
-                if (!out_of) {
-                    $('#out_of').focus();
+                var mark = $('#mark').val();
+                if (!mark || !isValidMark(mark)) {
+                    $('#mark').focus();
+                    $('#mark-validation').text('Please enter a valid mark.');
                     return;
+                } else {
+                    $('#mark-validation').text('');
                 }
-                var studentAddress = $('#std_address').val();
-                if (!studentAddress) {
-                    $('#std_address').focus();
+                var out_of = $('#out_of').val();
+                if (!out_of || !isoutMark(out_of)) {
+                    $('#out_of').focus();
+                    $('#outmark-validation').text('Please enter a valid mark.');
+                    return;
+                } else {
+                    $('#outmark-validation').text('');
+                }
+                
+                var address = $('#address').val();
+                if (!address) {
+                    $('#address').focus();
                     // alert('Please enter the student\'s address.');
                     return;
                 }
         
                 // Validate City
-                var city = $('#user_city').val();
+                var city = $('#city').val();
                 if (!city) {
-                    $('#user_city').focus();
+                    $('#city').focus();
                     // alert('Please enter the city.');
                     return;
                 }
         
                 // Validate State
-                var state = $('#user_state').val();
+                var state = $('#state').val();
                 if (!state) {
-                    $('#user_state').focus();
+                    $('#state').focus();
                     // alert('Please enter the state.');
                     return;
                 }
         
-                // Validate Pincode
-                var pincode = $('#user_pincode').val();
-                if (!pincode) {
-                    $('#user_pincode').focus();
-                    // alert('Please enter the pincode.');
-                    return;
-                }
+               
         
                 // Validate Country
-                var country = $('#user_country').val();
+                var country = $('#country').val();
                 if (!country) {
-                    $('#user_country').focus();
+                    $('#country').focus();
                     // alert('Please enter the country.');
                     return;
                 }
@@ -760,14 +518,20 @@ if (!pinCode || !isValidPinCode(pinCode)) {
                     return;
                 }
                 var mark1 = $('#mark1').val();
-                if (!mark1) {
+                if (!mark1 || !isValidMark(mark1)) {
                     $('#mark1').focus();
+                    $('#mark1-validation').text('Please enter a valid mark.');
                     return;
+                } else {
+                    $('#mark1-validation').text('');
                 }
                 var out_of1 = $('#out_of1').val();
-                if (!out_of1) {
+                if (!out_of1 || !isoutMark(out_of1)) {
                     $('#out_of1').focus();
+                    $('#outmark1-validation').text('Please enter a valid mark.');
                     return;
+                } else {
+                    $('#outmark1-validation').text('');
                 }
                 var studentAddress1 = $('#std_address1').val();
                 if (!studentAddress1) {
@@ -812,14 +576,20 @@ if (!pinCode || !isValidPinCode(pinCode)) {
                     return;
                 }
                 var mark2 = $('#mark2').val();
-                if (!mark2) {
+                if (!mark2 || !isValidMark(mark2)) {
                     $('#mark2').focus();
+                    $('#mark2-validation').text('Please enter a valid mark.');
                     return;
+                } else {
+                    $('#mark2-validation').text('');
                 }
                 var out_of2 = $('#out_of2').val();
-                if (!out_of2) {
+                if (!out_of2 || !isoutMark(out_of2)) {
                     $('#out_of2').focus();
+                    $('#outmark2-validation').text('Please enter a valid mark.');
                     return;
+                } else {
+                    $('#outmark2-validation').text('');
                 }
                 var studentAddress2 = $('#std_address2').val();
                 if (!studentAddress2) {
@@ -849,18 +619,53 @@ if (!pinCode || !isValidPinCode(pinCode)) {
                     // alert('Please enter the country.');
                     return;
                 }
-                document.getElementById("blog1").style.display = "none";
-            document.getElementById("blog2").style.display = "none";
-            document.getElementById("blog3").style.display = "block";
+            //     document.getElementById("blog1").style.display = "none";
+            // document.getElementById("blog2").style.display = "none";
+            // document.getElementById("blog3").style.display = "block";
     }
+
+    // mail function
+    $(document).ready(function () {
+                $("form").submit(function (e){
+                e.preventDefault();
+                var formData = {
+                        name: $("#user_first_name").val(),
+                        lname: $("#user_last_name").val(),
+                        dob: $("#dob").val(),
+                        gender: $("#gender").val(),
+                        course: $("#course_class").val(),
+                        email: $("#user_email").val(),
+                        phone: $("#user_phone").val(),
+                        guardian: $("#guardian_first_name").val(),
+                        guardian_occ: $("#guardian_occupation").val(),
+                        address: $("#std_address").val(),
+                        city: $("#user_city").val(),
+                        state: $("#user_state").val(),
+                        pincode: $("#user_pincode").val(),
+                        country: $("#user_country").val(),
+                       
+                    };
+                    console.log(formData)
+                    $.ajax({
+                        url: "admission-process_form.php",
+                        type: "POST",
+                        data: formData,
+                        // beforeSend: function() {
+                        //     n.html("<div class='alert alert-info'><p>Loading ...</p></div>")
+                        // },
+                        success: function(data) {
+                            $("#blog1").trigger('reset'); // Reset the form
+                            alert(data)
+                        },
+                        error: function() {
+                            n.html("<div class='alert alert-success'><p>Error !!!</p></div>")
+                        }
+                    })
+                })
+
+
+            })
+
 </script>
-
-<script>
-    function validateform3(){
-
-    }
-</script>
-
-
 
     </html>

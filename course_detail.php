@@ -68,14 +68,14 @@
     <!-- crumbs area end -->
     
   <!-- course area start -->
-<div class="course-area pt--120">
+<div class="course-area pt--120 ml-5">
     <div class="container-fluid">
         <div class="row">
             <!-- course details start -->
             <div class="col-lg-8 col-md-8">
                 <div class="course-details" id="blog1"  style="display: none;">
                     <div class="cs-thumb mb-5">
-                        <img src="assets/images/bpharm.png" alt="image">
+                        <!-- <img src="assets/images/bpharm.png" alt="image"> -->
                         <div class="csd-hv-info has-color align-items-center">
                             <div class="course-dt-info">
                                 <ul class="course-meta-details list-inline  w-100">
@@ -111,7 +111,7 @@
                                 <p class="mt-2">Senghundhar College of Pharmacy offers modern facilities, including laboratories, for Pharm. D students to enhance their practical skills and clinical knowledge.
                                     Prospective students are encouraged to check the official website or contact the college admission office for the most up-to-date and specific details regarding eligibility criteria and course structure.
                                     </p>
-                                <a class="btn btn-primary btn-round btn-sm mb-5" href="#">Apply Now</a>       
+                                <a class="btn btn-primary btn-round btn-sm mb-5" href="admission.php">Apply Now</a>       
                         <table class="table_class">
                             <thead>
                                 <tr>
@@ -144,6 +144,12 @@
                                 <tr>
                                     <td>Career Opportunities</td>
                                     <td>Pharmacist,Pharmaceutical Research,Clinical Research Associate,Regulatory Affairs Officer,Production Manager,Medical Sales Representative,Community Health Worker,Hospital Drug Coordinator.</td>
+                                    <!-- Add more data rows as needed -->
+                                </tr>
+
+                                <tr>
+                                    <td>Syllabus</td>
+                                    <td><a href="syllabus\Bpharm.pdf" target="_blank" style="color:blue;">Download here </a> </td>
                                     <!-- Add more data rows as needed -->
                                 </tr>
                                
@@ -182,7 +188,7 @@
                 </div>
                 <div class="course-details" id="blog2"  style="display: none;">
                     <div class="cs-thumb mb-5">
-                        <img src="assets/images/bsc_photo.png" alt="image">
+                        <!-- <img src="assets/images/bsc_photo.png" alt="image"> -->
                         
                         <div class="csd-hv-info has-color align-items-center">
                             <div class="course-dt-info">
@@ -220,7 +226,7 @@
                                 Prospective students are encouraged to check the official website or contact the college admission office for the most up-to-date and specific details regarding eligibility criteria and course structure
                                     
                                     </p>
-                                <a class="btn btn-primary btn-round btn-sm mb-5" href="#">Apply Now</a>       
+                                <a class="btn btn-primary btn-round btn-sm mb-5" href="admission.php">Apply Now</a>       
                         <table class="table_class">
                             <thead>
                                 <tr>
@@ -253,6 +259,12 @@
                                 <tr>
                                     <td>Career Opportunities</td>
                                     <td>Pharmacy Technician,Medical Representative,Hospital Pharmacy Assistant,Clinical Research Associate,Quality Control/Quality Assurance Assistant,Pharmaceutical Sales Representative.</td>
+                                    <!-- Add more data rows as needed -->
+                                </tr>
+
+                                <tr>
+                                    <td>Syllabus</td>
+                                    <td><a href="syllabus\Dpharm.pdf" target="_blank" style="color:blue;">Download here </a> </td>
                                     <!-- Add more data rows as needed -->
                                 </tr>
                                
@@ -291,7 +303,7 @@
                 </div>
                 <div class="course-details" id="blog3"  style="display: none;">
                     <div class="cs-thumb mb-5">
-                        <img src="assets/images/mpharm.png" alt="image">
+                        <!-- <img src="assets/images/mpharm.png" alt="image"> -->
                         
                         <div class="csd-hv-info has-color align-items-center">
                             <div class="course-dt-info">
@@ -330,7 +342,7 @@
                                     Prospective students are encouraged to check the official website or contact the college admission office for the most up-to-date and specific details regarding eligibility criteria and course structure.
 
                                     </p>
-                                <a class="btn btn-primary btn-round btn-sm mb-5" href="#">Apply Now</a>       
+                                <a class="btn btn-primary btn-round btn-sm mb-5" href="admission.php">Apply Now</a>       
                         <table class="table_class">
                             <thead>
                                 <tr>
@@ -363,6 +375,12 @@
                                 <tr>
                                     <td>Career Opportunities</td>
                                     <td>Pharmaceutical Research Scientist,Clinical Pharmacist,Regulatory Affairs Manager,Pharmacovigilance Specialist,Quality Assurance Manager,Medical WriterPharmaceutical Marketing Manager.</td>
+                                    <!-- Add more data rows as needed -->
+                                </tr>
+
+                                <tr>
+                                    <td>Syllabus</td>
+                                    <td><a href="syllabus\Mpharm.pdf" target="_blank" style="color:blue;" >Download here </a> </td>
                                     <!-- Add more data rows as needed -->
                                 </tr>
                                
@@ -401,7 +419,7 @@
                 </div>
                 <div class="course-details" id="blog4"  style="display: none;">
                     <div class="cs-thumb mb-5">
-                        <img src="assets/images/d_pharm.png" alt="image">
+                        <!-- <img src="assets/images/d_pharm.png" alt="image"> -->
                         
                         <div class="csd-hv-info has-color align-items-center">
                             <div class="course-dt-info">
@@ -438,7 +456,7 @@
                                     Prospective students are encouraged to check the official website or contact the college admission office for the most up-to-date and specific details regarding eligibility criteria and course structure.
 
                                     </p>
-                                <a class="btn btn-primary btn-round btn-sm mb-5" href="#">Apply Now</a>       
+                                <a class="btn btn-primary btn-round btn-sm mb-5" href="admission.php">Apply Now</a>       
                         <table class="table_class">
                             <thead>
                                 <tr>
@@ -471,6 +489,12 @@
                                 <tr>
                                     <td>Career Opportunities</td>
                                     <td>Pharmaceutical Research Scientist,Clinical Pharmacist,Regulatory Affairs Manager,Pharmacovigilance Specialist,Quality Assurance Manager,Medical WriterPharmaceutical Marketing Manager.</td>
+                                    <!-- Add more data rows as needed -->
+                                </tr>
+
+                                <tr>
+                                    <td>Syllabus</td>
+                                    <td><a href="syllabus\PharmD.pdf" target="_blank" style="color:blue;">Download here </a> </td>
                                     <!-- Add more data rows as needed -->
                                 </tr>
                                
@@ -615,7 +639,7 @@
         </div>
     </div>
 </div>
-<div class="application col-6 text-center mx-auto align-items-center mt-5 mb-5">
+<div class="application col-8 text-center mx-auto align-items-center mt-5 mb-5">
     <h2>Are you ready to take the next step toward your future studies?</h2>
     <a class="btn btn-primary btn-round btn-lg mb-5 mt-5" href="admission.php">Apply Now</a>
 </div>

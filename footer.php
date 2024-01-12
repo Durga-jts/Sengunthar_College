@@ -1,3 +1,12 @@
+<style>
+    .footer-class{
+        z-index: 1000; /* You can adjust the value as needed */
+        position: relative; /* Make sure to set a position for z-index to take effect */
+    }
+
+    
+</style>   
+   
    <!-- BOOTSTRAP -->
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <!-- Place favicon.ico in the root directory -->
@@ -18,7 +27,7 @@
     <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
    
 <!-- footer area start -->
-<footer>
+<footer class="footer-class">
         <div class="footer-top has-color pt--50 pb--30">
             <div class="container-fluid">
                 <div class="row ml-4">
@@ -46,13 +55,13 @@
                         <div class="widget footer-link ml-5">
                             <h4 class="fwidget-title mb-5 pb-3 primary-color">Useful Links</h4> 
                             <ul>
-                                <li><a href="#"><i class="fa fa-arrow-right"></i>About College</a></li>
-                                <li><a href="#"><i class="fa fa-arrow-right"></i>Academic</a></li>
-                                <li><a href="#"><i class="fa fa-arrow-right"></i>Facilities</a></li>
-                                <li><a href="#"><i class="fa fa-arrow-right"></i>Admission</a></li>
-                                <li><a href="#"><i class="fa fa-arrow-right"></i>Gallery</a></li>
-                                <li><a href="#"><i class="fa fa-arrow-right"></i>Careers</a></li>
-                                <li><a href="#"><i class="fa fa-arrow-right"></i>Contact Us</a></li>
+                                <li><a href="about-us.php"><i class="fa fa-arrow-right"></i>About College</a></li>
+                                <li><a href="academic.php"><i class="fa fa-arrow-right"></i>Academic</a></li>
+                                <li><a href="facilities.php"><i class="fa fa-arrow-right"></i>Facilities</a></li>
+                                <li><a href="admission.php"><i class="fa fa-arrow-right"></i>Admission</a></li>
+                                <li><a href="gallery.php"><i class="fa fa-arrow-right"></i>Gallery</a></li>
+                                <li><a href="career.php"><i class="fa fa-arrow-right"></i>Careers</a></li>
+                                <li><a href="contact.php"><i class="fa fa-arrow-right"></i>Contact Us</a></li>
                             </ul>
                         </div>
                     </div>

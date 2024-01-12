@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Sri Kumaran School of Nursing</title>
+    <title>Contact us</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Place favicon.ico in the root directory -->
     <link rel="shortcut icon" type="image/png" href="assets/images/icon/favicon.ico">
@@ -40,7 +40,7 @@
     
     <!-- offset search area start -->
     <div class="offset-search">
-        <form action="#">
+        <form action="process_form.php" id="contact-form">
             <input type="text" name="search" placeholder="Search here...">
             <button type="submit"><i class="fa fa-search"></i></button>
         </form>
@@ -59,7 +59,7 @@
     </div>
     <!-- crumbs area end -->
     <!-- contact info area start -->
-    <div class="contact-info mt-2 ptb--10">
+    <div class="contact-info mt-2 ptb--50">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5">
@@ -92,7 +92,7 @@
     </div>
     <!-- contact info area end -->
     <!-- contact form area start -->
-    <div class="contact-form-area pb--120">
+    <div class="contact-form-area pb--40">
         <div class="container">
             <div class="row">
                 <div class="col-md-10 offset-md-1">
@@ -105,23 +105,28 @@
             <div class="contact-form">
                 <form id="form" method="POST" name="form">
                     <div class="row">
-                        <div class="col-md-4">
-                            <input type="text" name="name_st" placeholder="Enter your name" id="name" required 
+                        <div class="col-md-6">
+                            <input type="text" name="name" placeholder="Enter your name" id="name" required 
                             oninvalid="this.setCustomValidity('Please select all questions and proceed')"
                             oninput="this.setCustomValidity('')">
                         </div>
-                        <div class="col-md-4">
-                            <input type="email" name="emailid" placeholder="Your Email" id="emailid" required 
+                        <div class="col-md-6">
+                            <input type="email" name="email" placeholder="Your Email" id="email" required 
                             oninvalid="validateEmail(this)"
                             oninput="this.setCustomValidity('')">
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-6">
+                            <input type="number" name="phone" placeholder="Number" id="phone" required 
+                            oninvalid="this.setCustomValidity('Please select all questions and proceed')"
+                            oninput="this.setCustomValidity('')">
+                        </div>
+                        <div class="col-md-6">
                             <input type="subject" name="subject" placeholder="Subject" id="subject" required 
                             oninvalid="this.setCustomValidity('Please select all questions and proceed')"
                             oninput="this.setCustomValidity('')">
                         </div>
                         <div class="col-12">
-                            <textarea name="msg" id="msg" placeholder="Your message here" value="msg" required 
+                            <textarea class="h-75" name="message" id="message" placeholder="Your message here" value="msg" required 
                             oninvalid="this.setCustomValidity('Please select all questions and proceed')"
                             oninput="this.setCustomValidity('')"></textarea>
                         </div>
@@ -190,7 +195,7 @@ function validate() {
           submitButton.disabled = false;
 
           const greetingContainer = document.createElement('div');
-                greetingContainer.className = 'vh-100 d-flex justify-content-center align-items-center';
+                greetingContainer.className = 'vh-70 d-flex justify-content-center align-items-center';
                 greetingContainer.id = 'greeting';
 
                 greetingContainer.innerHTML = `
@@ -254,9 +259,40 @@ function validateEmail(input) {
         }
     }
 function nextpage(){
-    window.location.href="contact.html";
+    window.location.href="contact.php";
 }
 
+            // mail function
+            $(document).ready(function () {
+                $("form").submit(function (e){
+                e.preventDefault();
+                var formData = {
+                        name: $("#name").val(),
+                        email: $("#email").val(),
+                        phone: $("#phone").val(),
+                        subject: $("#subject").val(),
+                        message: $("#message").val(),
+                       
+                    };
+                    console.log(formData)
+                    $.ajax({
+                        url: "process_form.php",
+                        type: "POST",
+                        data: formData,
+                        // beforeSend: function() {
+                        //     n.html("<div class='alert alert-info'><p>Loading ...</p></div>")
+                        // },
+                        success: function(data) {
+                            $("#contact-form").trigger('reset'); // Reset the form
+                            alert(data)
+                        },
+                        error: function() {
+                            n.html("<div class='alert alert-success'><p>Error !!!</p></div>")
+                        }
+                    })
+                })
 
+
+            })
 </script> 
 </html>

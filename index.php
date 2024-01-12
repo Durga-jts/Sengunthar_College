@@ -67,7 +67,7 @@
                                     <h3>admission ‘ 2024</h3>
                                     <h1 style="color:#707070;"><span class="primary-color" >Your bright future</span> is Our Mission</h1>
                                     <p style="color:#707070;width:90%;"> A leading institute in the city offers a course in Pharmacy. The course is available in Full Time mode.  </p>
-                                    <a class="btn btn-primary btn-round btn-lg mb-5" href="#">Start Learning Now</a>
+                                    <a class="btn btn-primary btn-round btn-lg mb-5" href="academic.php">Start Learning Now</a>
                                 </div>
                             </div>
                             
@@ -397,25 +397,28 @@
     <div class="container-fluid infrastructure d-flex justify-content-center  align-items-center">
         <div class="row infrastructure-row justify-content-center ">
             
-            <div class="col-md-2 px-3">
-                <div class="row infrastructure-text"> &#10148; Campus</div>     <!--129138-->
+            <div class="col-md-2 text-center ">
+                <div class="infrastructure-text" onclick="showFacilityContent('library')"> &#10148; Library</div>     <!--129138-->
             </div>
             
-            <div class="col-md-2 px-3">
-                <div class="row infrastructure-text"> &#10148; Library</div>
+            <div class="col-md-2 text-center ">
+                <div class="infrastructure-text" onclick="showFacilityContent('halls')"> &#10148; Auditorium & Halls</div>
             </div>
             
-            <div class="col-md-2 px-3">
-                <div class="row infrastructure-text"> &#10148; Lab</div>
+            <div class="col-md-2 text-center ">
+                <div class="infrastructure-text" onclick="showFacilityContent('rooms')"> &#10148; Machine Room</div>
             </div>
 
-            <div class="col-md-2 px-3">
-                <div class="row infrastructure-text"> &#10148; Facilities</div>
+            <div class="col-md-2 text-center ">
+                <div class="infrastructure-text" onclick="showFacilityContent('lab')"> &#10148; Lab</div>
             </div>
 
-            <div class="col-md-2 px-3">
-                <div class="row infrastructure-text"> &#10148; Cafeteria</div>
+            <div class="col-md-2 text-center ">
+                <div class="infrastructure-text" onclick="showFacilityContent('hostel')"> &#10148; Transportation</div>
             </div>
+            
+
+
 
         </div>
     </div>
@@ -705,6 +708,13 @@
     document.getElementById('bpharm').addEventListener('click', function() {
         window.location.href = 'about-us.php';
     });
+
+
+function showFacilityContent(section) {
+    // Redirect to facilities.php with the section as a parameter
+    window.location.href = 'facilities.php#'+section;
+}
+
 </script>
 
 </html>

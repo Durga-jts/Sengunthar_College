@@ -25,25 +25,7 @@
     <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
 
     <style>
-        .bg_dark_9 {
-    background-color: #f5f5f5;
-}
-.form-group {
-    margin-bottom: 1rem;
-}
-.form-control{
-    line-height: 2.5;
-    font-size: 1em;
-}
-.validation-message {
-            color: red;
-            font-size: 12px;
-            margin-top: 5px;
-        }
-.apply_form{
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-   
-}
+        
     </style>
 </head>
 <body>
@@ -62,12 +44,12 @@
     <!-- header area end -->
 
     <!-- offset search area start -->
-    <div class="offset-search">
-        <form action="#">
+    <!-- <div class="offset-search">
+        <form action="#" >
             <input type="text" name="search" placeholder="Search here...">
             <button type="submit"><i class="fa fa-search"></i></button>
         </form>
-    </div>
+    </div> -->
     <!-- offset search area end -->
     <!-- body overlay area start -->
     <div class="body_overlay"></div>
@@ -85,7 +67,7 @@
             <div class="row justify-content-center">
                 <div class="section-title">
                     <h2 class="text-center"><span>Career</span></h2>
-                    <form action="#" class="apply_form p-5 mt-5" name="careerForm" id="careerForm">
+                    <form   onsubmit="showThankYouMessage(); return false;" class="apply_form p-5 mt-3" name="careerForm" id="careerForm">
 
                         <!-- First Row -->
                         <div class="row">
@@ -146,7 +128,7 @@
                                 <!-- Phone Number -->
                                 <div class="form-group">
                                     <label for="phone">Phone Number:</label>
-                                    <input type="tel" class="form-control" id="phone" name="phone" required>
+                                    <input type="number" class="form-control" id="phone" name="phone" required>
                                     <span class="validation-message" id="phone-validation"></span>
                                 </div>
                             </div>
@@ -159,19 +141,50 @@
                             </div>
                         </div>
     
+                        <div id="greetingContainer" class="vh-70 d-none justify-content-center align-items-center">
+    <div>
+        <div class="mb-4 text-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="75" height="75" fill="currentColor"
+                class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                <path
+                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+            </svg>
+        </div>
+        <div class="text-center">
+            <h1>Thank You !</h1>
+            <p style="line-height:1em;">Your Information was successfully submitted.</p>
+            <p style="font-style: italic;">We'll contact you when a decision is made.</p>
+            <button class="btn btn-primary" id="closeButton" onclick="nextpage()">Close</button>
+        </div>
+    </div>
+</div>
+
                         <!-- Submit Button -->
                         <div class="d-flex justify-content-center mt-3">
-                            <a href="#" class="btn btn-primary" onclick="validateForm()">Submit</a>
+                            <button type="submit" class="btn btn-primary" onclick="validateForm()">Submit</button>
                         </div>
                     </form>
                 </div>
             </div>
         </div>
     </div>
+    <!-- Thank You message box -->
+    <div id="thankYouMessage">
+        Thank you for submitting the form!
+    </div>
    <!-- footer area start -->
 <?php include("footer.php"); ?>
 <!-- footer area end -->
 <script>
+   function showThankYouMessage() {
+    // Hide the form
+    document.getElementById('careerForm').style.display = 'none';
+    
+    // Show the thank you message
+    document.getElementById('thankYouMessage').style.display = 'block';
+}
+
+
 function validateForm() {
 
     var Name = $('#name').val();
@@ -245,6 +258,41 @@ function isValidEmail(email) {
          var phoneRegex = /^\d{10}$/;
          return phoneRegex.test(phoneNumber);
      }
+
+       // mail function
+    //    $(document).ready(function () {
+    //             $("form").submit(function (e){
+    //             e.preventDefault();
+    //             var formData = {
+    //                     name: $("#name").val(),
+    //                     email: $("#email").val(),
+    //                     course: $("#course_class").val(),
+    //                     dob: $("#dob").val(),
+    //                     gender: $("#gender").val(),
+    //                     num: $("#phone").val(),
+    //                     // resume: $("#resume").val(),
+                       
+    //                 };
+    //                 console.log(formData)
+    //                 $.ajax({
+    //                     url: "career-process_form.php",
+    //                     type: "POST",
+    //                     data: formData,
+    //                     // beforeSend: function() {
+    //                     //     n.html("<div class='alert alert-info'><p>Loading ...</p></div>")
+    //                     // },
+    //                     success: function(data) {
+    //                         $("#careerForm").trigger('reset'); // Reset the form
+    //                         alert(data)
+    //                     },
+    //                     error: function() {
+    //                         n.html("<div class='alert alert-success'><p>Error !!!</p></div>")
+    //                     }
+    //                 })
+    //             })
+
+
+    //         })
 </script>
  <!-- jquery latest version -->
  <script src="assets/js/vendor/jquery-2.2.4.min.js"></script>

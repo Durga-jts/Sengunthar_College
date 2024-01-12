@@ -63,7 +63,7 @@
                                         <li class="active"><a href="index.php">Home</a></li>
                                         <li><a href="about-us.php">About College</a></li>
                                         <li><a href="academic.php">Academic </a></li>
-                                        <li><a href="#">Facilities </a></li>
+                                        <li><a href="facilities.php">Facilities </a></li>
                                         <li><a href="admission.php">Admission </a>
                                             <!-- <ul class="submenu">
                                                 <li><a href="courses.html">courses</a></li>
