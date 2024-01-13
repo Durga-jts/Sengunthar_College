@@ -57,7 +57,7 @@
                             </div>
                         </div>
                         <div class="col-md-9 d-none d-lg-block">
-                            <div class="main-menu">
+                            <div class="main-menu mr-4">
                                 <nav>
                                     <ul id="m_menu_active">
                                         <li class="active"><a href="index.php">Home</a></li>

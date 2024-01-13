@@ -124,6 +124,21 @@ body {
   height:auto;
   
 }
+.sd p h4{
+  text-align: center;
+  color: #000;
+  font-size: 14px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.chairmans-message-image img,
+.chairmans-message-image img {
+    width: 100%; /* Ensure the image takes up the full width of its container */
+    height: 300px; /* Adjust the height as needed to match the principal's image size */
+    object-fit: cover; /* Maintain the aspect ratio and cover the entire container */
+}
+
 
 /* College Group css */
 .card-img-top{
@@ -592,14 +607,30 @@ a:hover {
   padding: 38px 17px;
 }
 
-.main-menu nav ul li.active > a {
+/* .main-menu nav ul li.active > a {
   color: #fc9928;
-}
+} */
 
 .main-menu nav ul li > a:hover {
   color: #fc9928 !important;
 }
+#popupContainer {
+  position: relative;
+  background: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
 
+
+#popupContent {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  overflow: visible; /* Allow content to overflow its box */
+}
 /*submenu*/
 
 .main-menu nav .submenu {
@@ -2019,13 +2050,13 @@ span.post-date i {
   z-index: -1;
   height: 100%;
   width: 100%;
-  opacity: 0.5;
-  background: #1b2945;
+  /* opacity: 0.5;
+  background: #1b2945; */
 }
 
 .crumb-content h4 {
   font-size: 55px;
-  color: #fefefe;
+  color: #fc9928;
   font-weight: 900;
   letter-spacing: 0;
   text-transform: uppercase;

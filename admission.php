@@ -67,7 +67,7 @@
                 <div class="section-title">
                     <h2><span>Apply this form to admission</span></h2>
                 
-                    <form action="admission-process_form\.php" onsubmit="showThankYouMessage(); return false;" class="apply_form bg_dark_9 p-5 mt-5" id="blog1" >
+                    <form class="apply_form bg_dark_9 p-5 mt-5"  name="myform" id="myform" >
                         <div class="content mb-5">
                             <h3 class="primary-color">College Admissions Form</h3>
                             <p>Enter your admission information below</p>
@@ -193,29 +193,38 @@
                             </div>
                         </div>
                         <div class="text-center mt-4">
-                        <button type="submit" href="#" class="btn btn-primary" onclick="validateForm()">Submit</button>
-                    </div>   
+                        <button type="submit" class="btn btn-primary" id="nextStep" onclick="validateForm()">Submit</button>
+                        </div>   
                     </form>
                  <!-- College Application End  -->
+                    <div id="popupContainer" style="display: none;">
+                        <div id="popupContent" class="mb-4 text-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="75" height="75" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
+                            </svg>
+                            <div class="text-center">
+                                <h1>Thank You !</h1>
+                                <p style="line-height:1em;">Your Information was successfully submitted.</p>
+                                <p style="font-style: italic;" >We'll contact you when a decision is made.</p>
+                                <button class="btn btn-primary"  id="closeButton" onclick="nextpage()">Close</button>
+                            </div>
+                        </div>
+                    </div>
                 
             </div>
             </div>
         </div>
     </div>
 
-     <!-- Thank You message box -->
-     <div id="thankYouMessage">
-        Thank you for submitting the form!
-    </div>
-
+    
     <script>
-        function showThankYouMessage() {
-            // Hide the form
-            document.getElementById('myForm').style.display = 'none';
+        // function showThankYouMessage() {
+        //     // Hide the form
+        //     document.getElementById('myForm').style.display = 'none';
             
-            // Show the thank you message
-            document.getElementById('thankYouMessage').style.display = 'block';
-        }
+        //     // Show the thank you message
+        //     document.getElementById('thankYouMessage').style.display = 'block';
+        // }
 
     <!-- footer start -->
     <?php include("footer.php"); ?>
@@ -233,30 +242,30 @@
     <script src="assets/js/plugins.js"></script>
     <script src="assets/js/scripts.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    <script>
-        function show1() {
-            document.getElementById("blog1").style.display = "none";
-            document.getElementById("blog2").style.display = "block";
-            document.getElementById("blog3").style.display = "none"; // hide payment form
-        }
+    // <script>
+    //     function show1() {
+    //         document.getElementById("blog1").style.display = "none";
+    //         document.getElementById("blog2").style.display = "block";
+    //         document.getElementById("blog3").style.display = "none"; // hide payment form
+    //     }
     
-        function show2() {
-            document.getElementById("blog1").style.display = "block";
-            document.getElementById("blog2").style.display = "none";
-            document.getElementById("blog3").style.display = "none"; // hide payment form
-        }
+    //     function show2() {
+    //         document.getElementById("blog1").style.display = "block";
+    //         document.getElementById("blog2").style.display = "none";
+    //         document.getElementById("blog3").style.display = "none"; // hide payment form
+    //     }
     
-        function show3() {
-            document.getElementById("blog1").style.display = "none";
-            document.getElementById("blog2").style.display = "none";
-            document.getElementById("blog3").style.display = "block"; // show payment form
-        }
-        function show4() {
-            document.getElementById("blog1").style.display = "none";
-            document.getElementById("blog2").style.display = "block";
-            document.getElementById("blog3").style.display = "none"; // show payment form
-        }
-    </script>
+    //     function show3() {
+    //         document.getElementById("blog1").style.display = "none";
+    //         document.getElementById("blog2").style.display = "none";
+    //         document.getElementById("blog3").style.display = "block"; // show payment form
+    //     }
+    //     function show4() {
+    //         document.getElementById("blog1").style.display = "none";
+    //         document.getElementById("blog2").style.display = "block";
+    //         document.getElementById("blog3").style.display = "none"; // show payment form
+    //     }
+    // </script>
 <script>
     function validateForm() {
          // Validate First Name
@@ -300,11 +309,11 @@
  
          var selectedCourse = $('#course_class').val();
 
-if (selectedCourse === 'Choose one') {
-    $('#course_class').focus();
-    return;
-}
- 
+            if (selectedCourse === 'Choose one') {
+                $('#course_class').focus();
+                return;
+            }
+            
          // Validate Email
          var email = $('#user_email').val();
          if (!email || !isValidEmail(email)) {
@@ -375,13 +384,13 @@ if (selectedCourse === 'Choose one') {
  
          // Validate Pincode
          var pinCode = $('#user_pincode').val();
-if (!pinCode || !isValidPinCode(pinCode)) {
-    $('#user_pincode').focus();
-    $('#pincode-validation').text('Please enter a valid 6-digit pin code.');
-    return;
-} else {
-    $('#pincode-validation').text('');
-}
+            if (!pinCode || !isValidPinCode(pinCode)) {
+                $('#user_pincode').focus();
+                $('#pincode-validation').text('Please enter a valid 6-digit pin code.');
+                return;
+            } else {
+                $('#pincode-validation').text('');
+            }
  
          // Validate Country
          var country = $('#user_country').val();
@@ -392,10 +401,12 @@ if (!pinCode || !isValidPinCode(pinCode)) {
          }
  
          // If all validations pass, you can proceed to the next page or perform other actions
-         document.getElementById("blog1").style.display = "none";
-             document.getElementById("blog2").style.display = "block";
-             document.getElementById("blog3").style.display = "none"; 
+        //  document.getElementById("blog1").style.display = "none";
+        //      document.getElementById("blog2").style.display = "block";
+        //      document.getElementById("blog3").style.display = "none"; 
+               
      }
+    
  
      function isValidEmail(email) {
          // You can implement a more sophisticated email validation if needed
@@ -444,9 +455,26 @@ function isoutMark(out_of2) {
     var markRegex = /^\d{3,4}$/;
     return markRegex.test(out_of2);
 }
+
  </script>
 
 <script>
+  var nextStep = document.querySelector('#nextStep');
+
+  nextStep.addEventListener('click', function (e) {
+    e.preventDefault();
+    // Hide first view
+    document.getElementById('myform').style.display = 'none';
+
+    // Show thank you message element
+    document.getElementById('popupContainer').style.display = 'block';
+  });
+  function nextpage(){
+    window.location.href="admission.php";
+}
+</script>
+
+<!-- <script>
     function validateform2(){
         var name_schl = $('#name_schl').val();
                 if (!name_schl) {
@@ -666,6 +694,7 @@ function isoutMark(out_of2) {
 
             })
 
-</script>
+</script> -->
+
 
     </html>

@@ -49,7 +49,7 @@
     <div class="crumbs-area">
         <div class="container">
             <div class="crumb-content">
-                <h4 class="crumb-title"><span>Facilitiese</h4>
+                <h4 class="crumb-title"><span>Facilities</h4>
             </div>
         </div>
     </div>
