@@ -82,9 +82,9 @@
                             <li class="py-4"><a href="about-trust.php" class="">About Trust</a></li>
                             <!-- <li class="py-4"><a href="#rooms" class="">Why to Join?</a></li> -->
                             <li class="py-4"><a href="about-vision.php" class="">Vision & Mission</a></li>
-                            <li class="py-4"><a href="about-chairman.php" class="">Chairman Message</a></li>
-                            <li class="py-4"><a href="about-correspondent.php" class="">Correspondent Message</a></li>
-                            <li class="py-4"><a href="about-principal.php" class="">Principal Message</a></li>
+                            <li class="py-4"><a href="about-chairman.php" class="">Chairman's Message</a></li>
+                            <li class="py-4"><a href="about-correspondent.php" class="">Correspondent's Message</a></li>
+                            <li class="py-4"><a href="about-principal.php" class="">Principal's Message</a></li>
                         </ul>
                     </div>
                 </div>
@@ -92,7 +92,7 @@
 
             <!-- About our trust -->
             <div class="col-lg-9" id="about-trust">
-                <div class="about-trust-area pt-5">
+                <div class="about-trust-area">
                     <div class="container-fluid">
                         <div class="row align-items-stretch">
                             <div class="col-lg-6">
@@ -101,12 +101,12 @@
                                         <span class="text-uppercase">about </span>
                                         <h2> Our Trust</h2>
                                     </div>
-                                    <p class="text-justify">Sengunthar Charitable Trust, established in 1995, is dedicated to bringing out the hidden potential in students and shaping them into high-order entrepreneurs.</p>
+                                    <p class="text-justify mb-4">Sengunthar Charitable Trust, established in 1995, is dedicated to bringing out the hidden potential in students and shaping them into high-order entrepreneurs.</p>
 
                                     <!-- Mission -->
                                     <div class="mission-section">
                                         <h5> Mission</h3>
-                                        <p class="text-justify">Entrepreneurial Development: The trust focuses on nurturing entrepreneurial skills among students, aiming to empower them to contribute significantly to the business world.</p>
+                                        <p class="text-justify mb-1">Entrepreneurial Development: The trust focuses on nurturing entrepreneurial skills among students, aiming to empower them to contribute significantly to the business world.</p>
                                     </div>
 
                                 </div>
@@ -129,47 +129,47 @@
                                     <div class="mission-section">
                                         <h5> National Service</h3>
                                         <div>
-                                            <p class="text-justify"> The trust is committed to contributing to the national cause by improving the quality of life, with a particular emphasis on the betterment of rural communities and their economic development.</p>
+                                            <p class="text-justify mb-4"> The trust is committed to contributing to the national cause by improving the quality of life, with a particular emphasis on the betterment of rural communities and their economic development.</p>
                                         </div>
                                     </div>
                                 <!-- Holistic Development-->
                                 <div class="mission-section">
                                         <h5> Holistic Development</h3>
                                         <div>
-                                            <p class="text-justify"> The trust follows the philosophy of providing all-round development, incorporating a strong moral foundation. This suggests a commitment to not only academic and professional growth but also the cultivation of ethical values.</p>
+                                            <p class="text-justify mb-4"> The trust follows the philosophy of providing all-round development, incorporating a strong moral foundation. This suggests a commitment to not only academic and professional growth but also the cultivation of ethical values.</p>
                                         </div>
                                 </div>
 
                                 <div class="mission-section">
                                         <h5> Balancing Career and Life</h3>
                                         <div>
-                                            <p class="text-justify"> Encouraging a spirit of healthy competition, the trust aims to guide students in achieving a successful career while maintaining a contented and balanced life. In summary, Sengunthar Charitable Trust is dedicated to fostering entrepreneurship, contributing to national development, and promoting holistic development with a strong moral base among students. It envisions students who can successfully navigate both their careers and personal lives with a sense of fulfillment. The Trust offers scholarships to recognize and support students with exceptional academic achievements.</p>
+                                            <p class="text-justify mb-4"> Encouraging a spirit of healthy competition, the trust aims to guide students in achieving a successful career while maintaining a contented and balanced life. In summary, Sengunthar Charitable Trust is dedicated to fostering entrepreneurship, contributing to national development, and promoting holistic development with a strong moral base among students. It envisions students who can successfully navigate both their careers and personal lives with a sense of fulfillment. The Trust offers scholarships to recognize and support students with exceptional academic achievements.</p>
                                         </div>
                                 </div>
 
                                 <div class="mission-section">
                                         <h5>Commitment to Academic Standards</h3>
                                         <div>
-                                            <p class="text-justify">The Trust emphasizes the importance of aspiring for the maintenance, growth, and development of academic standards, reflecting a dedication to educational excellence.</p>
+                                            <p class="text-justify mb-4">The Trust emphasizes the importance of aspiring for the maintenance, growth, and development of academic standards, reflecting a dedication to educational excellence.</p>
                                         </div>
                                 </div>
 
                                 <div class="mission-section">
                                         <h5>Promotion of Self-Employment Opportunities</h3>
                                         <div>
-                                            <p class="text-justify">The Trust aims to generate and promote opportunities for self-employment, indicating a commitment to fostering entrepreneurship among students.</p>
+                                            <p class="text-justify mb-4">The Trust aims to generate and promote opportunities for self-employment, indicating a commitment to fostering entrepreneurship among students.</p>
                                         </div>
                                 </div>
                                 <div class="mission-section">
                                         <h5>Dedication to Socio-Economic Change</h3>
                                         <div>
-                                            <p class="text-justify">The Trust is dedicated to socio-economic change in India, emphasizing inclusivity by stating that this commitment applies regardless of race, class, culture, or religion.</p>
+                                            <p class="text-justify mb-4">The Trust is dedicated to socio-economic change in India, emphasizing inclusivity by stating that this commitment applies regardless of race, class, culture, or religion.</p>
                                         </div>
                                 </div>
                                 <div class="mission-section">
                                         <h5>Character Building and Nurturing Inquisitive Spirit</h3>
                                         <div>
-                                            <p class="text-justify">The Trust focuses on character building and nurturing the inquisitive spirit of students, suggesting a holistic approach to education that goes beyond academics to cultivate strong character and curiosity. In summary, the Trust supports meritorious students through scholarships, emphasizes academic standards, promotes self-employment opportunities, is dedicated to socio-economic change with inclusivity, and places importance on character building and fostering the inquisitive spirit of students.</p>
+                                            <p class="text-justify mb-4">The Trust focuses on character building and nurturing the inquisitive spirit of students, suggesting a holistic approach to education that goes beyond academics to cultivate strong character and curiosity. In summary, the Trust supports meritorious students through scholarships, emphasizes academic standards, promotes self-employment opportunities, is dedicated to socio-economic change with inclusivity, and places importance on character building and fostering the inquisitive spirit of students.</p>
                                         </div>
                                 </div>
                             </div>

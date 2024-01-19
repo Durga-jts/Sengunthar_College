@@ -63,7 +63,11 @@
     <!-- apply content start -->
     <div class="about-area ">
         <div class="container-fluid">
+<<<<<<< Updated upstream
             <div class="row justify-content-center">
+=======
+            <div class="row justify-content-center mt-4">
+>>>>>>> Stashed changes
                 <div class="section-title">
                     <h2><span>Apply this form to admission</span></h2>
                 
@@ -78,14 +82,22 @@
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="user_first_name">Enter First Name</label>
+<<<<<<< Updated upstream
                                     <input type="text" class="form-control" id="user_first_name" name="user_first_name"placeholder="First Name" required>
+=======
+                                    <input type="text" class="form-control" id="user_first_name" name="user_first_name"placeholder="First Name" required style="height:41px;">
+>>>>>>> Stashed changes
                                     <span class="validation-message" id="first-name-validation"></span>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="user_last_name">Enter Last Name</label>
+<<<<<<< Updated upstream
                                     <input type="text" class="form-control" id="user_last_name" name="user_last_name" placeholder="Last Name" required>
+=======
+                                    <input type="text" class="form-control" id="user_last_name" name="user_last_name" placeholder="Last Name" required style="height:41px;">
+>>>>>>> Stashed changes
                                     <span class="validation-message" id="last-name-validation"></span>
                                 </div>
                             </div>
@@ -94,13 +106,21 @@
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="dob">Date of Birth:</label>
+<<<<<<< Updated upstream
                                     <input type="date" class="form-control" name="dob" id="dob">
+=======
+                                    <input type="date" class="form-control" name="dob" id="dob" style="height:41px;">
+>>>>>>> Stashed changes
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="gender">Gender:</label>
+<<<<<<< Updated upstream
                                     <select id="gender" class="form-control" id="gender" name="gender" style="height:3.3em;">
+=======
+                                    <select id="gender" class="form-control" id="gender" name="gender" style="height:41px;">
+>>>>>>> Stashed changes
                                       <option value="" class="form-control">Select Gender</option>
                                       <option value="male" class="form-control">Male</option>
                                       <option value="female" class="form-control">Female</option>
@@ -113,7 +133,11 @@
                             <div class="col-md-12">
                                 <div class="form-group">
                                     <label for="user_class">Course</label>
+<<<<<<< Updated upstream
                                     <select class="form-control" name="course_class" id="course_class"  style="height:3.3em;">
+=======
+                                    <select class="form-control" name="course_class" id="course_class"  style="height:41px;">
+>>>>>>> Stashed changes
                                         <option>Choose one</option>
                                         <option>B.Pharm (Bachelor of Pharmacy)</option>
                                         <option>D.Pharm (Diploma in Pharmacy)</option>
@@ -128,14 +152,22 @@
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="user_last_name">Email</label>
+<<<<<<< Updated upstream
                                     <input type="text" class="form-control" name="user_email" id="user_email" placeholder="example@gmail.com">
+=======
+                                    <input type="text" class="form-control" name="user_email" id="user_email" placeholder="example@gmail.com" style="height:41px;">
+>>>>>>> Stashed changes
                                     <span class="validation-message" id="email-validation"></span>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="user_last_name">Phone Number</label>
+<<<<<<< Updated upstream
                                     <input type="number" class="form-control" id="user_phone" name="user_phone" placeholder="xxxxxxxxxx">
+=======
+                                    <input type="number" class="form-control" id="user_phone" name="user_phone" placeholder="xxxxxxxxxx" style="height:41px;">
+>>>>>>> Stashed changes
                                     <span class="validation-message" id="phone-validation"></span>
                                 </div>
                             </div>
@@ -144,14 +176,22 @@
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="guardian_first_name">Parents/ Guardian Name</label>
+<<<<<<< Updated upstream
                                     <input type="text" id="guardian_first_name" name="guardian_first_name" class="form-control" placeholder="Name" required>
+=======
+                                    <input type="text" id="guardian_first_name" name="guardian_first_name" class="form-control" placeholder="Name" required style="height:41px;">
+>>>>>>> Stashed changes
                                     <span class="validation-message" id="guardian-name-validation"></span>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="guardian_last_name">Parents/ Guardian Occupation</label>
+<<<<<<< Updated upstream
                                     <input type="text" id="guardian_occupation" name="guardian_occupation" class="form-control" placeholder="Occupation...">
+=======
+                                    <input type="text" id="guardian_occupation" name="guardian_occupation" class="form-control" placeholder="Occupation..." style="height:41px;">
+>>>>>>> Stashed changes
                                     <span class="validation-message" id="guardian-occupation-validation"></span>
                                 </div>
                             </div>
@@ -160,7 +200,11 @@
                             <div class="col-md-12">
                                 <div class="form-group">
                                     <label for="std_address">Student's Address</label>
+<<<<<<< Updated upstream
                                     <input type="text" id="std_address" name="std_address" class="form-control" placeholder="State Address">
+=======
+                                    <input type="text" id="std_address" name="std_address" class="form-control" placeholder="State Address" style="height:41px;">
+>>>>>>> Stashed changes
                                 </div>
                             </div>
                         </div>
@@ -168,13 +212,21 @@
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="user_city">City</label>
+<<<<<<< Updated upstream
                                     <input type="text" id="user_city" name="user_city" class="form-control" placeholder="City">
+=======
+                                    <input type="text" id="user_city" name="user_city" class="form-control" placeholder="City" style="height:41px;">
+>>>>>>> Stashed changes
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="user_last_name">State</label>
+<<<<<<< Updated upstream
                                     <input type="text" id="user_state" name="user_state" class="form-control" placeholder="State">
+=======
+                                    <input type="text" id="user_state" name="user_state" class="form-control" placeholder="State" style="height:41px;">
+>>>>>>> Stashed changes
                                 </div>
                             </div>
                         </div>
@@ -182,13 +234,21 @@
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="user_city">Pincode</label>
+<<<<<<< Updated upstream
                                     <input type="number" id="user_pincode" name="user_pincode" class="form-control" placeholder="Pincode">
+=======
+                                    <input type="text" id="user_pincode" name="user_pincode" class="form-control" placeholder="Pincode" style="height:41px;">
+>>>>>>> Stashed changes
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="user_last_name">Country</label>
+<<<<<<< Updated upstream
                                     <input type="text" id="user_country" name="user_country" class="form-control" placeholder="Country">
+=======
+                                    <input type="text" id="user_country" name="user_country" class="form-control" placeholder="Country" style="height:41px;">
+>>>>>>> Stashed changes
                                 </div>
                             </div>
                         </div>

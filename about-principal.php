@@ -82,35 +82,37 @@
                             <li class="py-4"><a href="about-trust.php" class="">About Trust</a></li>
                             <!-- <li class="py-4"><a href="#rooms" class="">Why to Join?</a></li> -->
                             <li class="py-4"><a href="about-vision.php" class="">Vision & Mission</a></li>
-                            <li class="py-4"><a href="about-chairman.php" class="">Chairman Message</a></li>
-                            <li class="py-4"><a href="about-correspondent.php" class="">Correspondent Message</a></li>
-                            <li class="py-4"><a href="about-principal.php" class="">Principal Message</a></li>
+                            <li class="py-4"><a href="about-chairman.php" class="">Chairman's Message</a></li>
+                            <li class="py-4"><a href="about-correspondent.php" class="">Correspondent's Message</a></li>
+                            <li class="py-4"><a href="about-principal.php" class="">Principal's Message</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
 
-            <div class="col-lg-9">
-                <!-- Principal's Message Section -->
-                <div class="container-fluid principal-message p-5 my-0 mt-5 mb-5">
-                    <div class="row">
-                    
-                        <!-- Principal's Message  -->
-                        <div class="col-md-6">
-                            <div class="section-title ml-2">
-                                <span class="text-uppercase">Principal's Greeting</span>
-                                <h2>Greetings From Our Principal</h2>
-                            </div>
-                            <div class="principal-content ml-2">
-                                <p class="text-justify">
-                                    Sengunthar College of Pharmacy Established in 2017,  is committed to attaining excellence in Pharmacy Education. Offering programs such as B.Pharm, D.Pharm, M.Pharm, and Pharm.D (Doctor of Pharmacy), the college has gained recognition as a premier institute in the country. Renowned for its top-notch pharmacy education, the institution boasts an outstanding team of faculty members dedicated to continuous skill enhancement, ensuring the development of highly qualified professionals in the pharmaceutical field. With excellent infrastructure facilities supporting academic and research activities, our students consistently shine in curricular, extra-curricular, and co-curricular pursuits, showcasing their talents.</p>
 
-                                
-                                <!-- <a href="#" class="btn btn-primary">Read More</a> -->
+            <div class="col-lg-9" >
+                <div class="about-area ">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="about-left-content">
+                                    <div class="section-title">
+                                        <span class="text-uppercase">Principal's Greeting</span>
+                                        <h2>Greetings From Our Principal</h2> 
+                                    </div>
+                                    <p class="text-justify mb-1">
+                                        Dear Students, Faculty, and Stakeholders,<br><br>
+                                        It is with immense pride and pleasure that I extend my warm greetings to all members of the Sengunthar College of Pharmacy community.  Our institution stands as a beacon of academic excellence, consistently pushing the boundaries in pursuit of knowledge and integrity. Education, in our view, is not just a preparation for life; it is life itself.<br>
+                                    </p>
+                                        
+                                   
+                                    
+                                    <!-- <a href="#" class="btn btn-primary btn-round">Read more</a> -->
+                                </div>
                             </div>
-                        </div>
-                        <!-- Principal Image -->
-                        <div class="col-lg-6">
+                            
+                            <div class="col-lg-6">
                                 <div class="chairmans-message-image">
                                     <img src="assets/images/principal.jpg" alt="Principal Image">
                                     <div class="sd text-center">
@@ -119,10 +121,32 @@
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                        
+                        <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-md-12 ml-2">
+                                        <P class="text-justify">
+                                        As the principal of this esteemed college, it is my honor to witness our collective efforts materialize into a renowned educational organization in the field of Pharmacy.  Pharmacy, being a trusted and noble profession, holds a special place in the realm of Science and Technology. Our dedicated team of well-qualified faculty members is committed to preparing students to face the challenges of the ever-evolving pharmaceutical field. The curriculum is meticulously designed to foster individual growth and equip students with the essential tools needed to excel in both the pharmaceutical and corporate worlds.<br><br>
+                                        
+                                        At Sengunthar College of Pharmacy, we envision becoming the ultimate destination for education, training, and research in pharmaceutical sciences and allied sectors. Our mission is to groom strong leaders and professionals who can shoulder major responsibilities in the community, industry, and institutional healthcare standards. With the support of our management and the dedication of our faculty, we aspire to cater to the healthcare needs of the region and the entire nation.<br><br>
+                                        
+                                        I invite all students to embark on this transformative journey with us, where education goes beyond textbooks, and each one of you contributes to the legacy of excellence that defines our institution.<br><br>
+                                        
+                                        Wishing you all a successful and fulfilling academic year!<br><br>
+                                        
+                                        Prof. Dr. M. Surendra Kumar<br>
+                                        Principal<br>
+                                        Sengunthar College of Pharmacy<br>
+
+                                        </p> 
+
+                                    </div>
+                                </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-
+            </div> 
             
         </div>
     </div>

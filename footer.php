@@ -55,7 +55,7 @@
                         <div class="widget footer-link ml-5">
                             <h4 class="fwidget-title mb-5 pb-3 primary-color">Useful Links</h4> 
                             <ul>
-                                <li><a href="about-us.php"><i class="fa fa-arrow-right"></i>About College</a></li>
+                                <li><a href="about.php"><i class="fa fa-arrow-right"></i>About College</a></li>
                                 <li><a href="academic.php"><i class="fa fa-arrow-right"></i>Academic</a></li>
                                 <li><a href="facilities.php"><i class="fa fa-arrow-right"></i>Facilities</a></li>
                                 <li><a href="admission.php"><i class="fa fa-arrow-right"></i>Admission</a></li>
@@ -99,7 +99,7 @@
                     </ul>
                 </div>
                 <div class="footer-bottom">
-                    <p>Copyright ©2024 <span><a class="primary-color" href="" target="_blank"></a> </span> - All Rights Reserved. Made by <span><a class="primary-color" href="#" target="_blank">Vaarahi</a></span><img src="assets\images\vaarahi-logo.png" class="ml-3"></p>
+                    <p>Copyrights ©2024 <span><a class="primary-color" href="" target="_blank"></a> </span> - <span> Sengunthar College of Pharmacy, All Rights Reserved</span>.  Developed by <a href="https://www.vaaraahitech.com/" target="_blank" class="ml-3"><img src="assets/images/vaarahi-logo.png" alt="Vaaraahi Logo"></a></p>
                     
                 </div>
             </div>

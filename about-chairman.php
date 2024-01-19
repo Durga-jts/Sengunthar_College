@@ -82,9 +82,9 @@
                             <li class="py-4"><a href="about-trust.php" class="">About Trust</a></li>
                             <!-- <li class="py-4"><a href="#rooms" class="">Why to Join?</a></li> -->
                             <li class="py-4"><a href="about-vision.php" class="">Vision & Mission</a></li>
-                            <li class="py-4"><a href="about-chairman.php" class="">Chairman Message</a></li>
-                            <li class="py-4"><a href="about-correspondent.php" class="">Correspondent Message</a></li>
-                            <li class="py-4"><a href="about-principal.php" class="">Principal Message</a></li>
+                            <li class="py-4"><a href="about-chairman.php" class="">Chairman's Message</a></li>
+                            <li class="py-4"><a href="about-correspondent.php" class="">Correspondent's Message</a></li>
+                            <li class="py-4"><a href="about-principal.php" class="">Principal's Message</a></li>
                         </ul>
                     </div>
                 </div>
@@ -92,22 +92,33 @@
 
             <div class="col-lg-9">
                 <!-- Chairman's Message -->
-                <div class="chairmans-message-area ptb--5 mt-5 mb-5">
+<<<<<<< Updated upstream
+                <div class="chairmans-message-area ptb--5 ">
+=======
+                <div class="chairmans-message-area  ">
+>>>>>>> Stashed changes
                     <div class="container-fluid ">
                         <div class="row align-items-center">
-                            <div class="col-lg-6">
+                            <div class="col-lg-7">
                                 <div class="chairmans-message-content ml-4">
                                     <div class="section-title ">
-                                        <span class="text-uppercase">Chairman's </span>
-                                        <h2>Message</h2>
+                                        <span class="text-uppercase " >Chairman's </span>
+                                        <h2 class="primary-color">Message</h2>
                                     </div>
                                     <p class="text-justify"> Thiru. Jansons T. S. Natarajan is a luminary and a multifaceted genius, dedicatedly fostering the inherent talents of youth hailing from rural backgrounds. As the esteemed Founder and Chairman of the Jansons Group of Companies, based in Tiruchengode, his indomitable spirit extends across various sectors, including education, technology, healthcare, and granite industries.</p>
                                     <!-- Add more content or styling as needed -->
+<<<<<<< Updated upstream
+=======
+                                    <div class="section-title">
+                                        <h5> Enterprising Ventures:</h5>
+                                        <p class="text-justify">Under his visionary leadership, the Jansons Group boasts several prestigious institutions, including the Jansons School of Business and Jansons Institute of Technology in Coimbatore. Additionally, Thiru. Jansons has played a pivotal role in the establishment of Jansons MRI Diagnostic Centre in Erode and Heritage Granites in Sankari. As a Syndicate member of Periyar University, Salem, he actively contributes to the academic landscape, ensuring that his influence reaches far and wide.</p>
+                                    </div>
+>>>>>>> Stashed changes
                                 </div>
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-lg-5">
                                 <div class="chairmans-message-image">
-                                    <img src="assets/images/chairman.jpg" alt="Chairman's Image">
+                                    <img src="assets/images/chairman.png" alt="Chairman's Image" class="h-75">
                                     <div class="sd text-center">
                                         <h4>Thiru. Jansons. T. S. Natarajan</h4>
                                         <p>Chairman</p>
@@ -115,6 +126,25 @@
                                 </div>
                             </div>
                         </div>
+<<<<<<< Updated upstream
+=======
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="section-title">
+                                            <h5> Educational Impact:</h5>
+                                            <p class="text-justify">Thiru. Jansons' fervent and energetic support has transformed Sengunthar Engineering College into a breeding ground for exceptional talent. His crafted programs, strategically implemented at crucial junctures, empower students to blossom into individuals with a distinctive style. His unwavering commitment to unveiling the uniqueness within each student has turned the institution into a blissful abode where grace and innovation converge.</p>
+                                    </div>
+                                    <div class="section-title">
+                                            <h5> A Trailblazer in Society:</h5>
+                                            <p class="text-justify">What sets Thiru. Jansons apart is his dual role as an educationalist and entrepreneur. His craftsmanship goes beyond the walls of institutions, as he plants the right seeds in society, nurturing future leaders and change-makers. His impact as a visionary leader reverberates through the rare breed of students produced by Sengunthar Engineering College, each equipped with skills and knowledge that set them apart.</p>
+                                            <p class="text-justify">In conclusion, Thiru. Jansons T. S. Natarajan stands as a beacon of inspiration, weaving together education, entrepreneurship, and societal transformation. His relentless pursuit of excellence continues to shape the future, leaving an indelible mark on the landscape of education and beyond.</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+>>>>>>> Stashed changes
                     </div>
                 </div>
             </div>

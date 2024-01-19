@@ -67,7 +67,11 @@
         <div class="container-fluid">
             <div class="row justify-content-center">
                 <div class="section-title">
+<<<<<<< Updated upstream
                     <h2 class="text-center"><span>Career</span></h2>
+=======
+                    <h2 class="text-center"><span>Careers</span></h2>
+>>>>>>> Stashed changes
                     <!-- <div id="popupContainer">
                         <div id="popupContent">
                             
@@ -82,11 +86,16 @@
                                 <!-- Name -->
                                 <div class="form-group">
                                     <label for="name">Name:</label>
+<<<<<<< Updated upstream
                                     <input type="text" class="form-control" id="name" name="name" required>
+=======
+                                    <input type="text" class="form-control" id="name" name="name" required style="height:41px;">
+>>>>>>> Stashed changes
                                     <span class="validation-message" id="first-name-validation"></span>
                                 </div>
                             </div>
                             <div class="col-md-6">
+<<<<<<< Updated upstream
                                 <!-- Email -->
                                 <div class="form-group">
                                     <label for="email">Email:</label>
@@ -96,6 +105,21 @@
                             </div>
                         </div>
                         <div class="row">
+=======
+                                <div class="form-group">
+                                    <label for="gender">Gender:</label>
+                                    <select id="gender" class="form-control" name="gender" style="height:41px;">
+                                      <option value="" class="form-control">Select Gender</option>
+                                      <option value="male" class="form-control">Male</option>
+                                      <option value="female" class="form-control">Female</option>
+                                      <option value="other" class="form-control">Other</option>
+                                    </select>
+                                </div>
+                                <!-- Email -->
+                            </div>
+                        </div>
+                        <!-- <div class="row">
+>>>>>>> Stashed changes
                             <div class="col-md-12">
                                 <div class="form-group">
                                     <label for="user_class">Course</label>
@@ -109,6 +133,7 @@
                                     </select>
                                 </div>
                             </div>
+<<<<<<< Updated upstream
                         </div>
                         <div class="row">
                             <div class="col-md-6">
@@ -126,24 +151,52 @@
                                       <option value="female" class="form-control">Female</option>
                                       <option value="other" class="form-control">Other</option>
                                     </select>
+=======
+                        </div> -->
+                             
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="email">Email:</label>
+                                    <input type="email" class="form-control" id="email" name="email" required style="height:41px;">
+                                    <span class="validation-message" id="email-validation"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <!-- Phone Number -->
+                                <div class="form-group">
+                                    <label for="phone">Phone Number:</label>
+                                    <input type="number" class="form-control" id="phone" name="phone" required style="height:41px;">
+                                    <span class="validation-message" id="phone-validation"></span>
+>>>>>>> Stashed changes
                                 </div>
                             </div>
                         </div>
                         <!-- Second Row -->
                         <div class="row">
                             <div class="col-md-6">
+<<<<<<< Updated upstream
                                 <!-- Phone Number -->
                                 <div class="form-group">
                                     <label for="phone">Phone Number:</label>
                                     <input type="number" class="form-control" id="phone" name="phone" required>
                                     <span class="validation-message" id="phone-validation"></span>
+=======
+                                <div class="form-group">
+                                    <label for="dob">Date of Birth:</label>
+                                    <input type="date" class="form-control" name="dob" id="dob" style="height:41px;" >
+>>>>>>> Stashed changes
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <!-- Resume -->
                                 <div class="form-group">
                                     <label for="resume">Resume:</label>
+<<<<<<< Updated upstream
                                     <input type="file" class="form-control" id="resume" name="resume" accept=".pdf, .doc, .docx" required>
+=======
+                                    <input type="file" class="form-control" id="resume" name="resume" accept=".pdf, .doc, .docx" required style="height:41px; padding:2px;">
+>>>>>>> Stashed changes
                                 </div>
                             </div>
                         </div>

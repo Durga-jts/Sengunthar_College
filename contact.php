@@ -65,7 +65,7 @@
                 <div class="col-lg-5">
                     <div class="cnt-info">
                         <h4>Contact Info</h4>
-                        <p>Kumaramangalam Post, Tiruchengode, Namakkal Dt. ,Tamil Nadu - 637205.</p>
+                        <p><span class="font-weight-bold text-uppercase">Sengunthar College Of Pharmacy</span> <br>Kumaramangalam Post, Tiruchengode, <br>Namakkal Dt. ,Tamil Nadu - 637205.</p>
                         <ul class="address">
                             <li><i class="fa fa-phone"></i>+91 9367653355 / 8825707617</li>
                             <li><i class="fa fa-envelope"></i>info@senguntharpharmacycollege.org</li>

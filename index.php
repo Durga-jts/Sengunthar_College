@@ -136,7 +136,11 @@
             <div class="col-lg-6">
                 <div class="abt-right-thumb">
                     <div class="abt-rt-inner">
+<<<<<<< Updated upstream
                         <img src="assets/images/college_img2.jpg" class="abt-rt-image">
+=======
+                        <img src="assets/images/college_img2.jpg" class="abt-rt-image ">
+>>>>>>> Stashed changes
                     </div>
                 </div>
             </div>
@@ -446,7 +450,11 @@
     
      
     <!-- Activities and Events -->
+<<<<<<< Updated upstream
    <section class="container-fluid m-6 mt-5 mb-30">
+=======
+   <section class="container-fluid m-6 mt-5 mb-3">
+>>>>>>> Stashed changes
         <div class="row">
             <div class="col-lg-5 col-md-6 ml-4">
                 <div class="section-title">
@@ -464,7 +472,11 @@
                     <div class="row mb-30">
                         <div class="col-md-3">
                             <div class="g-img" style="height:50%">
+<<<<<<< Updated upstream
                                 <a href="assets/images/doctor3.jpg" class="fancybox" rel="ligthbox" title="Two Days National Seminar on India as an Ideal Power: Role in G20 UNO & International Order - Organized by the Dept of Politics & Public Administration">
+=======
+                                <a href="activities&events.php" class="fancybox" rel="ligthbox" title="Two Days National Seminar on India as an Ideal Power: Role in G20 UNO & International Order - Organized by the Dept of Politics & Public Administration">
+>>>>>>> Stashed changes
                                     <img src="assets/images/homepage-events1.png" style="min-height:100%;" class="zoom" loading="lazy">
                                 </a>
                                     <div class="row cont mt-1">
@@ -477,7 +489,11 @@
                         </div>
                         <div class="col-md-3">
                             <div class="g-img" >
+<<<<<<< Updated upstream
                                 <a href="assets/images/doctor3.jpg" class="fancybox" rel="ligthbox" title="No violence against women - Department of Women's Studies">
+=======
+                                <a href="activities&events.php" class="fancybox" rel="ligthbox" title="No violence against women - Department of Women's Studies">
+>>>>>>> Stashed changes
                                     <img src="assets/images/homepage-events2.png" style="min-height:100%;" class="zoom" loading="lazy">
                                 </a>
                                 <div class="row cont mt-1">
@@ -490,7 +506,11 @@
                     
                         <div class="col-md-3">
                             <div class="g-img">
+<<<<<<< Updated upstream
                                     <a href="/img/gallery/DLL.jpg" class="fancybox" rel="ligthbox" title="National Colloquium on Life Skills for Employability in Mass Media - Departments of Lifelong Learning">
+=======
+                                    <a href="activities&events.php" class="fancybox" rel="ligthbox" title="National Colloquium on Life Skills for Employability in Mass Media - Departments of Lifelong Learning">
+>>>>>>> Stashed changes
                                         <img src="assets/images/homepage-events3.png" style="min-height:100%;" class="zoom" loading="lazy">
                                     </a>
                                     <div class="row cont  mt-1">
@@ -503,7 +523,11 @@
 
                         <div class="col-md-3">
                             <div class="g-img" style="height:30%;">
+<<<<<<< Updated upstream
                                 <a href="/img/gallery/sss-123.jpg" class="fancybox" rel="ligthbox" title="Community Radio Programme on WORLD SOIL DAY">
+=======
+                                <a href="activities&events.php" class="fancybox" rel="ligthbox" title="Community Radio Programme on WORLD SOIL DAY">
+>>>>>>> Stashed changes
                                     <img src="assets/images/homepage-events4.png" style="min-height:100%;" class="zoom" loading="lazy">
                                 </a>
                                 <div class="row cont mt-1">
@@ -514,7 +538,11 @@
                             </div>
                         </div>
                     </div>
+<<<<<<< Updated upstream
                     <a href="activities&events.php" class="btn btn-sm btn-events mt-5">View All</a>
+=======
+                    <a href="activities&events.php" class="btn btn-sm btn-events mt-3">View All</a>
+>>>>>>> Stashed changes
             </div>
         </div>
     
@@ -526,49 +554,98 @@
 
     <!-- College Group start -->
 
+<<<<<<< Updated upstream
     <div class="container mt-5 mb-5">
         <h2 class="text-center mb-4">Our Group</h2>
+=======
+    <div class="container our-group ">
+        <h2 class="text-center mb-5">Our Group</h2>
+>>>>>>> Stashed changes
       
         <div class="card-deck">
           <!-- Branch 1 -->
-          <div class="card text-center">
+        <div class="card text-center">
+<<<<<<< Updated upstream
             <div class="img-body justify-content-center mt-3">
                 <img src="assets\images\college1.jpeg" class="card-img-top" alt="Branch 1 Logo" style="width:20%;">
             </div>
             <div class="card-body">
               <h5 class="card-title">Sengunthar Engineering College</h5>
             </div>
-          </div>
+=======
+            <a href="https://vkgsoft.co.in/sengunthar/index.html"  onclick="redirectToLink('https://vkgsoft.co.in/sengunthar/index.html')" target="_blank">
+                <div class="img-body justify-content-center mt-3">
+                    <img src="assets\images\college1.jpeg"  class="card-img-top" alt="Branch 1 Logo" style="width:20%;">
+                </div>
+                <div class="card-body-clg">
+                    <h5 class="card-title">Sengunthar Engineering College</h5>
+                </div>
+            </a>
+>>>>>>> Stashed changes
+        </div>
       
           <!-- Branch 2 -->
-          <div class="card text-center card-border">
+        <div class="card text-center card-border">
+<<<<<<< Updated upstream
                 <div class="img-body justify-content-center mt-3">
                     <img src="assets\images\college2.jpeg" class="card-img-top" alt="Branch 2 Logo" style="width:19%;">
                 </div>
                 <div class="card-body">
                     <h5 class="card-title">Sengunthar Arts and Science College</h5>
                 </div>
-          </div>
+=======
+            <a href="https://smsartsandscience.com/" onclick="redirectToLink('https://smsartsandscience.com/')"  target="_blank" >
+                <div class="img-body justify-content-center mt-3">
+                    <img src="assets\images\college2.jpeg"class="card-img-top" alt="Branch 2 Logo" style="width:19%;">
+                </div>
+                <div class="card-body-clg">
+                    <h5 class="card-title">Sengunthar Arts and Science College</h5>
+                </div>
+            </a>
+>>>>>>> Stashed changes
+        </div>
           
           <!-- Branch 3 -->
-          <div class="card text-center">
+        <div class="card text-center">
+<<<<<<< Updated upstream
             <div class="img-body justify-content-center mt-3">
                 <img src="assets\images\college3.jpeg" class="card-img-top" alt="Branch 3 Logo" style="width:22%;">
             </div>
             <div class="card-body">
-                <h5 class="card-title">Sengunthar College of Nursing</h5>
+                <h5 class="card-title">Sengunthar College Of Nursing</h5>
             </div>
-      </div>
+=======
+            <a href="https://vkgsoft.co.in/scont.edu.in/index.php"  onclick="redirectToLink('https://vkgsoft.co.in/scont.edu.in/index.php')" target="_blank" >
+                <div class="img-body justify-content-center mt-3">
+                    <img src="assets\images\college3.jpeg" class="card-img-top" alt="Branch 3 Logo" style="width:22%;">
+                </div>
+                <div class="card-body-clg">
+                    <h5 class="card-title">Sengunthar College Of Nursing</h5>
+                </div>
+            </a>
+>>>>>>> Stashed changes
+        </div>
 
       <!-- Branch 4 -->
-      <!-- <div class="card text-center">
-        <div class="img-body justify-content-center">
-            <img src="assets\images\college4.jpeg" class="card-img-top" alt="Branch 4 Logo">
+        <div class="card text-center">
+<<<<<<< Updated upstream
+            <div class="img-body justify-content-center mt-3">
+                <img src="assets/images/logo1.png" class="card-img-top" alt="Branch 4 Logo">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Sengunthar College Of Pharmacy</h5>
+            </div>
+=======
+            <a href="https://vaaraahi.co.in/vaaraahi/" onclick="redirectToLink('https://vaaraahi.co.in/vaaraahi/)" target="_blank">
+                <div class="img-body justify-content-center mt-3">
+                    <img src="assets/images/logo1.png"class="card-img-top" alt="Branch 4 Logo">
+                </div>
+                <div class="card-body-clg">
+                    <h5 class="card-title">Sengunthar College Of Pharmacy</h5>
+                </div>
+            </a>
+>>>>>>> Stashed changes
         </div>
-        <div class="card-body">
-            <h5 class="card-title">Sengunthar Arts and Science College</h5>
-        </div>
-  </div> -->
       
           <!-- Add more branches as needed -->
         </div>
@@ -709,11 +786,22 @@
         window.location.href = 'about.php';
     });
 
+    document.getElementById('sleepCard').addEventListener('click', function() {
+        window.location.href = '../Sleep_Form/index.php';
+    });
 
+
+<<<<<<< Updated upstream
 function showFacilityContent(section) {
     // Redirect to facilities.php with the section as a parameter
     window.location.href = 'facilities.php#'+section;
 }
+=======
+    function redirectToLink(link) {
+        // You can add additional logic here if needed
+        window.location.href = link;
+    }
+>>>>>>> Stashed changes
 
 </script>
 

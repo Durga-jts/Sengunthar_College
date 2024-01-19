@@ -33,6 +33,7 @@
             /* width:100%; */
             
         }
+        
         </style>
 </head>
 
@@ -82,9 +83,9 @@
                             <li class="py-4"><a href="about-trust.php" class="">About Trust</a></li>
                             <!-- <li class="py-4"><a href="#rooms" class="">Why to Join?</a></li> -->
                             <li class="py-4"><a href="about-vision.php" class="">Vision & Mission</a></li>
-                            <li class="py-4"><a href="about-chairman.php" class="">Chairman Message</a></li>
-                            <li class="py-4"><a href="about-correspondent.php" class="">Correspondent Message</a></li>
-                            <li class="py-4"><a href="about-principal.php" class="">Principal Message</a></li>
+                            <li class="py-4"><a href="about-chairman.php" class="">Chairman's Message</a></li>
+                            <li class="py-4"><a href="about-correspondent.php" class="">Correspondent's Message</a></li>
+                            <li class="py-4"><a href="about-principal.php" class="">Principal's Message</a></li>
                         </ul>
                     </div>
                 </div>
@@ -108,7 +109,7 @@
                                 </div>
                             </div>
                             
-                            <div class="col-lg-6 h-25">
+                            <div class="col-lg-6">
                                 <div class="abt-right-thumb">
                                     <div class="abt-rt-inner">
                                         <img src="assets/images/college_img2.jpg" class="abt-rt-image">
@@ -118,7 +119,7 @@
                         </div>
                         
                         <div class="container-fluid">
-                                <div class="row">
+                                <div class="row about-area2">
                                     <div class="col-lg-12">
                                             <p class="text-justify ml-2"> Our college creates an environment that instills a strong work ethic, discipline, and a set of principles that will empower students for their future studies and careers. We take pride in offering enhanced hands-on training, well-established infrastructure, a well-resourced library, industrial visits, guest lectures, workshops, symposiums, conferences, and student exhibitions.</p>
                                     </div>
@@ -176,8 +177,6 @@
 </script>
 
 
-
-</script>
 </body>
 
 </html>

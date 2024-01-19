@@ -82,9 +82,9 @@
                             <li class="py-4"><a href="about-trust.php" class="">About Trust</a></li>
                             <!-- <li class="py-4"><a href="#rooms" class="">Why to Join?</a></li> -->
                             <li class="py-4"><a href="about-vision.php" class="">Vision & Mission</a></li>
-                            <li class="py-4"><a href="about-chairman.php" class="">Chairman Message</a></li>
-                            <li class="py-4"><a href="about-correspondent.php" class="">Correspondent Message</a></li>
-                            <li class="py-4"><a href="about-principal.php" class="">Principal Message</a></li>
+                            <li class="py-4"><a href="about-chairman.php" class="">Chairman's Message</a></li>
+                            <li class="py-4"><a href="about-correspondent.php" class="">Correspondent's Message</a></li>
+                            <li class="py-4"><a href="about-principal.php" class="">Principal's Message</a></li>
                         </ul>
                     </div>
                 </div>
@@ -92,25 +92,25 @@
 
             <div class="col-lg-9">
                 <!-- Correspondent's Message -->
-                <div class="chairmans-message-area ptb--5 mt-5 mb-5">
+                <div class="chairmans-message-area ptb--5 mt-3 ">
                     <div class="container-fluid ">
                         <div class="row align-items-center">
-                            <div class="col-lg-6">
+                            <div class="col-lg-7">
                                 <div class="chairmans-message-content ml-4">
                                     <div class="section-title ">
-                                        <span class="text-uppercase">Correspondent </span>
-                                        <h2>Message</h2>
+                                        <span class="text-uppercase ">Correspondent's </span>
+                                        <h2 class="primary-color">Message</h2>
                                     </div>
-                                    <p class="text-justify">Dear Students, Faculty, and Esteemed Stakeholders,  </p>
-                                    <p class="text-justify">It is with immense pleasure and a deep sense of responsibility that I extend my heartfelt greetings to each one of you as the Secretary and Correspondent of Sengunthar Engineering College.
+                                    <p class="text-justify">Dear Students, Faculty, and Esteemed Stakeholders,  <br><br>
+                                    It is with immense pleasure and a deep sense of responsibility that I extend my heartfelt greetings to each one of you as the Secretary and Correspondent of Sengunthar Engineering College.
                                     My professional journey, spanning over two decades, has been a fulfilling odyssey in the realm of education. With over 15 years as an Assistant Professor, followed by a dedicated period as a Professor at Erode Arts and Science College, and subsequently serving as the Principal at Sengunthar Arts and Science College, Tiruchengode, I bring a wealth of experience to my current role.
                                     </p>
                                     <!-- Add more content or styling as needed -->
                                 </div>
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-lg-5">
                                 <div class="chairmans-message-image">
-                                    <img src="assets/images/chairman.jpg" alt="Correspondent's Image">
+                                    <img src="assets/images/correspondent.png" alt="Correspondent's Image" class="h-75">
                                     <div class="sd text-center">
                                         <h4>Prof. A. Baladhandapani, M. A., M. Phil.</h4>
                                         <p>Secretary and Correspondent</p>
@@ -118,11 +118,45 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="container-fluid">
+                            <div class="row">
+                                 <!-- Additional paragraphs with bullet points -->
+                                <div class="additional-paragraphs ml-4">
+                                        <p class="text-justify"> As Secretary and Correspondent, I am committed to
+                                    fostering an environment where each student
+                                    can flourish academically, personally, and professionally. Described as a notable and
+                                    celebrated
+                                    figure, I am driven by a passion to infuse our educational ecosystem with enthusiasm,
+                                    generating
+                                    a fresh and invigorating atmosphere among our students.
+                                    </p>
+
+                                        <p class="text-justify"> I consider myself a valid asset to the student community, and it is my sincere endeavor to be a path definer, guiding each student towards their unique journey of success. My refined and dignified ideas aim to inspire and empower our students, shaping them into well-rounded individuals poised for excellence.
+                                    </p>
+
+                                    <p class="text-justify"> Central to my role is a profound focus on student welfare. Every action I undertake is centered around ensuring the benefit of our students. It is truly heartening to witness the admiration of our student body, who see me as a God-gifted voice advocating for their needs within the institution.</p>
+
+                                    <p class="text-justify"> In this pursuit, I continuously explore innovative schemes to showcase the adroitness of our students, bringing them into the limelight and providing them with opportunities to shine.
+
+                                        </P>
+
+                                    <p class="text-justify"> I encourage each student to actively engage in the myriad opportunities available at Sengunthar Engineering College. This institution is not just a place of learning but a community where ideas are nurtured, talents are celebrated, and dreams take flight.
+                                    </P>
+
+                                    <p class="text-justify"> As we collectively strive for excellence, my door is always open for constructive discussions, ideas, and concerns. Together, let us continue to make Sengunthar Engineering College a beacon of educational brilliance.
+
+                                    </P>
+
+                                    <p class="text-justify">Thank you for entrusting me with this vital role. I look forward to a collaborative and successful journey with each one of you.
+                                    </P>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-
-
+     
         </div>
     </div>
 </section>

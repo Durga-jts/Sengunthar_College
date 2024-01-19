@@ -9,7 +9,7 @@
 
     //...................................//
     // Recipient email address
-    $to = "chandru735843@gmail.com,durga.jorimts@gmail.com";
+    $to = "durga.jorimts@gmail.com";
     //......................................//
     $email_subject = "Contact Form Submission - $email";
     //...............................................//

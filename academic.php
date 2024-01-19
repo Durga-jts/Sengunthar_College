@@ -77,7 +77,11 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
+<<<<<<< Updated upstream
                     <div class="abt-right-thumb">
+=======
+                    <div class="abt-right-thumb mt-5">
+>>>>>>> Stashed changes
                         <!-- <div class="abt-rt-inner"> -->
                             <img src="assets/images/college_img1.jpg" class="abt-rt-image" style="height:50vh;">
                         <!-- </div> -->
@@ -88,10 +92,18 @@
     </div>
     <!-- academic body1 area end -->  
     
+<<<<<<< Updated upstream
 <!-- course area start -->
 <div class="course-area pt--0 pb--50">
     <div class="container" style="max-width:95%;">
         <div class="row">
+=======
+
+<!-- Course Area Start -->
+<div class="course-area pt--0 pb--50">
+    <div class="container mt-4 d-flex flex-column" style="max-width: 95%;">
+    <div class="row">
+>>>>>>> Stashed changes
             <div class="col-md-6">
                 <div class="section-title">
                     <span class="text-uppercase">Build your career</span>
@@ -99,6 +111,7 @@
                 </div>
             </div>
         </div>
+<<<<<<< Updated upstream
 
         <div class="row">
             <div class="col-md-3 mb-4 card-size">
@@ -109,12 +122,8 @@
                     <div class="card-body p-3">
                         <div class="course-meta-title mb-2">
                             <div class="course-meta-text">
-                                <h4><a href="#">B.Pharm (Bachelor of Pharmacy)</a></h4>
-                                <ul class="course-meta-stats">
-                                    <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half"></i></li>
-                                    <li>36 <i class="fa fa-comment"></i></li>
-                                    <li>85 <i class="fa fa-heart"></i></li>
-                                </ul>
+                                <h4><a href="#" class="text-center">B.Pharm <br>(Bachelor of Pharmacy)</a></h4>
+                                
                             </div>
                         </div>
                         <p class="text-content text-justify">B.Pharm is a 4-year undergraduate program in pharmaceutical sciences encompassing  pharmaceutics, chemistry, pharmacology, pharmacognosy, analysis, and regulatory affairs.</p>
@@ -134,11 +143,7 @@
                         <div class="course-meta-title mb-2">
                             <div class="course-meta-text">
                                 <h4><a href="#">D. Pharm (Diploma in Pharmacy)</a></h4>
-                                <ul class="course-meta-stats">
-                                    <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half"></i></li>
-                                    <li>36 <i class="fa fa-comment"></i></li>
-                                    <li>85 <i class="fa fa-heart"></i></li>
-                                </ul>
+                                
                             </div>
                         </div>
                         <p class="text-content text-justify">D.Pharm is a 2-year diploma program in pharmaceutical sciences covering essential subjects like pharmaceutics, chemistry, pharmacology, pharmacognosy, and pharmacy .</p>
@@ -158,11 +163,7 @@
                         <div class="course-meta-title mb-2">
                             <div class="course-meta-text">
                                 <h4><a href="#">M.Pharm (Master of Pharmacy)</a></h4>
-                                <ul class="course-meta-stats">
-                                    <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half"></i></li>
-                                    <li>36 <i class="fa fa-comment"></i></li>
-                                    <li>85 <i class="fa fa-heart"></i></li>
-                                </ul>
+                                
                             </div>
                         </div>
                         <p class="text-content text-justify">M.Pharm is a 2-year postgraduate program specializing in pharmaceutical sciences. Core and elective courses cover advanced topics, with a potential research project or dissertation.</p>
@@ -182,11 +183,7 @@
                         <div class="course-meta-title mb-2">
                             <div class="course-meta-text">
                                 <h4><a href="#">Doctor of Pharmacy (Pharm. D)</a></h4>
-                                <ul class="course-meta-stats">
-                                    <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half"></i></li>
-                                    <li>36 <i class="fa fa-comment"></i></li>
-                                    <li>85 <i class="fa fa-heart"></i></li>
-                                </ul>
+                                
                             </div>
                         </div>
                         <p class="text-content text-justify">Pharm.D is a 6-year doctoral program integrating academic, practical, and experiential learning, emphasizing clinical pharmacy, patient care, and pharmaceutical practice.</p>
@@ -201,6 +198,74 @@
 </div>
 <!-- course area end -->
 
+=======
+        <div class="row justify-content-center mb-2">
+
+        <div class="col-lg-12 d-flex">
+            <div class="col-3 m-2 d-flex flex-column">
+                <div class="card d-flex flex-column">
+                    <div class="img-row">
+                        <img class="card-img mx-auto d-block mt-3" src="assets/images/course1.webp" alt="Card image">
+                    </div>
+                    <div class="card-body  align-items-center ">
+                        <h4 class="card-title">B.Pharm (Bachelor of Pharmacy)</h4>
+                        <p class="card-text text-justify">B.Pharm is a 4-year undergraduate program in pharmaceutical sciences encompassing pharmaceutics, chemistry, pharmacology, pharmacognosy, analysis, and regulatory affairs.</p>
+                        <div class="read-more  d-flex justify-content-center">
+                            <a class="btn btn-primary btn-round btn-sm" href="#" onclick="showBlog1()">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-3 m-2 d-flex flex-column">
+                <div class="card d-flex flex-column">
+                    <div class="img-row">
+                        <img class="card-img mx-auto d-block mt-3" src="assets/images/course2.webp" alt="Card image">
+                    </div>
+                    <div class="card-body align-items-center flex-grow-1">
+                        <h4 class="card-title">D. Pharm (Diploma in Pharmacy)</h4>
+                        <p class="card-text text-justify">Pharm.D is a 6-year doctoral program integrating academic, practical, and experiential learning, emphasizing clinical pharmacy, patient care, and pharmaceutical practice.</p>
+                        <div class="read-more  d-flex justify-content-center">
+                            <a class="btn btn-primary btn-round btn-sm" href="#" onclick="showBlog2()"> Read More </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-3 m-2 d-flex flex-column">
+                <div class="card d-flex flex-column">
+                    <div class="img-row">
+                        <img class="card-img mx-auto d-block mt-3" src="assets/images/course3.webp" alt="Card image">
+                    </div>
+                    <div class="card-body  align-items-center flex-grow-1">
+                        <h4 class="card-title">M.Pharm (Master of Pharmacy)</h4>
+                        <p class="card-text text-justify">M.Pharm is a 2-year postgraduate program specializing in pharmaceutical sciences. Core and elective courses cover advanced topics, with a potential research project or dissertation.</p>
+                        <div class="read-more  d-flex justify-content-center">
+                            <a class="btn btn-primary btn-round btn-sm" href="#" onclick="showBlog3()"> Read More </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-3 m-2 d-flex flex-column">
+                <div class="card d-flex flex-column">
+                    <div class="img-row">
+                        <img class="card-img mx-auto d-block mt-3" src="assets/images/course4.webp" alt="Card image">
+                    </div>
+                    <div class="card-body  align-items-center flex-grow-1">
+                        <h4 class="card-title">Doctor of Pharmacy (Pharm. D)</h4>
+                        <p class="card-text text-justify">Pharm.D is a 6-year doctoral program integrating academic, practical, and experiential learning, emphasizing clinical pharmacy, patient care, and pharmaceutical practice.</p>
+                        <div class="read-more  d-flex justify-content-center">
+                            <a class="btn btn-primary btn-round btn-sm" href="#" onclick="showBlog4()"> Read More </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+>>>>>>> Stashed changes
 
    
      

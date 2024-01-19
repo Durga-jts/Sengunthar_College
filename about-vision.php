@@ -82,9 +82,9 @@
                         <li class="py-4"><a href="about-trust.php" class="">About Trust</a></li>
                         <!-- <li class="py-4"><a href="#rooms" class="">Why to Join?</a></li> -->
                         <li class="py-4"><a href="about-vision.php" class="">Vision & Mission</a></li>
-                        <li class="py-4"><a href="about-chairman.php" class="">Chairman Message</a></li>
-                        <li class="py-4"><a href="about-correspondent.php" class="">Correspondent Message</a></li>
-                        <li class="py-4"><a href="about-principal.php" class="">Principal Message</a></li>
+                        <li class="py-4"><a href="about-chairman.php" class="">Chairman's Message</a></li>
+                        <li class="py-4"><a href="about-correspondent.php" class="">Correspondent's Message</a></li>
+                        <li class="py-4"><a href="about-principal.php" class="">Principal's Message</a></li>
                     </ul>
                 </div>
             </div>
@@ -93,7 +93,13 @@
 
              <!-- Mission and Vision -->
             <div class="col-lg-9" id="vision">
-                <div class="vision-Vission-area ptb--50">
+                <div class="vision-Vission-area ptb--10">
+                <div class="col-lg-12">
+                            <div class="section-title ">
+                                <span class="text-uppercase ">Our </span>
+                                <h2 class="primary-color">Vision & Mission</h2>
+                            </div>
+                        </div>
                     <div class="container-fluid">
                         <div class="row">
                             <!-- Vision Card -->
@@ -102,10 +108,14 @@
                             </div>
                             <div class="col-md-10">
                                 <div class="card">
+<<<<<<< Updated upstream
                                     <div class="card-body">
+=======
+                                    <div class="card-body-mission">
+>>>>>>> Stashed changes
                                         <div class="section-title">
                                             <!-- <span class="text-uppercase">Vision</span> -->
-                                            <h2>Our Vision</h2>
+                                            <h3>Our Vision</h3>
                                         </div>
                                         <p class="text-justify">Our vision is to be recognized as one of the premier institutes in Pharmacy Education, Research, and Pharmacy Practice at both the National and International levels. We strive to create an educational ecosystem that not only imparts knowledge but also nurtures a passion for continuous learning and innovation. At Senghundhar College of Pharmacy, our commitment to the growth and success of our students is unwavering. The constant reviews, personalized attention, and timely counseling provided by our management, principal, and faculty members ensure that each student has the support needed to overcome challenges and achieve their highest potential. Our institution takes pride in producing graduates who, like inestimable buds, spread fragrance throughout the pharmaceutical world.</p>
                                     </div>
@@ -120,9 +130,13 @@
                                 </div>
                                 <div class="col-md-10">
                                     <div class="card">
+<<<<<<< Updated upstream
                                         <div class="card-body">
+=======
+                                        <div class="card-body-mission">
+>>>>>>> Stashed changes
                                             <div class="section-title mt-4">
-                                                <h2>Our Mission</h2>
+                                                <h3>Our Mission</h3>
                                             </div>
                                             <p class="text-justify">Our mission at Senghundhar College of Pharmacy is multi-faceted: Pharma Education and Talent Development: We are committed to providing pharmaceutical education and unlocking the hidden talents of students from rural backgrounds, recognizing the vital role they play in our nation's development. Innovative Teaching Methods: We employ innovative, practical-oriented teaching methods to ensure a comprehensive learning experience, fostering an atmosphere conducive to academic and professional growth. Cutting-edge Research: Our mission includes designing cutting-edge research in the field of pharmaceutical sciences, drug development, and clinical pharmacy, contributing to advancements in the pharmaceutical industry. Intellectual Property Development: We actively promote and support both national and international intellectual property development, encouraging students to engage in creative and innovative endeavors. Entrepreneurial Spirit and Ethical Standards: We foster an entrepreneurial spirit among our students, encouraging them to explore entrepreneurial opportunities in the pharmaceutical sector. Additionally, we prioritize the inculcation of high moral, ethical, and professional standards, shaping responsible and principled professionals.</p>
                                         </div>

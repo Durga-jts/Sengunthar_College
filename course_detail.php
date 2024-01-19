@@ -93,11 +93,7 @@
                                     </li>      
                                 </ul> 
                             </div>
-                            <ul class="course-meta-stats">
-                                <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half"></i></li>
-                                <li>36 <i class="fa fa-comment"></i></li>
-                                <li>85 <i class="fa fa-heart"></i></li>
-                            </ul>
+                            
                         </div>
                     </div>
                     <div class="cs-content"> 
@@ -207,11 +203,7 @@
                                     </li>      
                                 </ul> 
                             </div>
-                            <ul class="course-meta-stats">
-                                <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half"></i></li>
-                                <li>36 <i class="fa fa-comment"></i></li>
-                                <li>85 <i class="fa fa-heart"></i></li>
-                            </ul>
+                            
                         </div>
                     </div>
                     <div class="cs-content"> 
@@ -322,11 +314,7 @@
                                     </li>      
                                 </ul> 
                             </div>
-                            <ul class="course-meta-stats">
-                                <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half"></i></li>
-                                <li>36 <i class="fa fa-comment"></i></li>
-                                <li>85 <i class="fa fa-heart"></i></li>
-                            </ul>
+                            
                         </div>
                     </div>
                     <div class="cs-content"> 
@@ -438,11 +426,7 @@
                                     </li>      
                                 </ul> 
                             </div>
-                            <ul class="course-meta-stats">
-                                <li><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half"></i></li>
-                                <li>36 <i class="fa fa-comment"></i></li>
-                                <li>85 <i class="fa fa-heart"></i></li>
-                            </ul>
+                            
                         </div>
                     </div>
                     <div class="cs-content"> 
@@ -547,13 +531,13 @@
                                     <li class="py-1">Sengunthar College Of Pharmacy</li>
                                     <li class="py-1">9367653355/8825707617</li>
                                 </ul>
-                                    <h5 class="mt-5">Social Info</h5>
+                                    <!-- <h5 class="mt-5">Social Info</h5>
                                     <ul class="social">
                                         <li><a href="https://www.facebook.com/SenghundharCollegeofPharmacy"><i class="fa fa-facebook"></i></a></li>
                                         <li><a href="https://twitter.com/scop_2017 "><i class="fa fa-twitter"></i></a></li>
                                         <li><a href="https://www.youtube.com/@SCOP_2017 "><i class="fa fa-youtube"></i></a></li>
                                         <li><a href="https://www.instagram.com/senghundharcollegeofpharmacy/"><i class="fa fa-instagram"></i></a></li>
-                                    </ul>
+                                    </ul> -->
                                 </div>
                             </div>
                         </div>
@@ -616,7 +600,7 @@
                         <!-- widget course end -->
                         
                         <!-- widget course start -->
-                        <div class="widget widget-tag" style="background-color: #f6f7fb;padding:20px;">
+                        <!-- <div class="widget widget-tag" style="background-color: #f6f7fb;padding:20px;">
                             <h4 class="widget-title">Tag Course</h4>
                             <ul class="widget-tags">
                                 <li><a href="#">Pharmacy</a></li>
@@ -631,7 +615,7 @@
                                 <li><a href="#">Pharmacistlife</a></li>
                             </ul>
                             
-                        </div>
+                        </div> -->
                         <!-- widget course end -->
                     </div>
                 </div>

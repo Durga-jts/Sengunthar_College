@@ -168,6 +168,13 @@ body {
   border: 1px solid;
   width:auto;
 }
+<<<<<<< Updated upstream
+=======
+.our-group{
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+>>>>>>> Stashed changes
 
 .btn-events{
   background-color: #fc9928;
@@ -207,7 +214,11 @@ body {
 }
 /* Courses Card */
 .card-deck{
+<<<<<<< Updated upstream
   height:auto;
+=======
+  /* height:auto; */
+>>>>>>> Stashed changes
   
 }
 .sd p h4{
@@ -338,8 +349,13 @@ body {
 }
 
 .card-size{
+<<<<<<< Updated upstream
   max-height:1000px;
   height:auto;
+=======
+  /* max-height:1000px;
+  height:auto; */
+>>>>>>> Stashed changes
 }
 /* ACADEMICS END HEREE */
 
@@ -348,6 +364,10 @@ body {
   margin-top: 10%;
   margin-bottom:5%;
 }
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 /* Gallery end */
 
 
@@ -404,16 +424,23 @@ body {
 }
 
 .faq_question_widget ul li a.sidemenu_active {
-  font-weight: bold;
-  border-bottom: #ff1053 1px solid;
+  /* font-weight: bold;
+  border-bottom: #ff1053 1px solid; */
 }
+/* .list_details li a:active {
+  border-bottom: 2px solid #ff1053 !important;
+  color: #ff1053 !important;
+  font-weight: bold !important;
+} */
+
 .shadow_box {
   background-color: #FFF;
   box-shadow: 0 2px 12px rgba(0,0,0,.12);
   border-radius: 5px;
 }
 .facilities-content_section{
-  margin-top:4%;
+  margin-top:2%;
+  margin-bottom: 3%;
 }
 /* Facilities End */
 
@@ -971,7 +998,7 @@ a:hover {
   display: block;
 }
 .primary-color {
-  color: #fc9928 !important;
+  /* color: #fc9928 !important; */
 }
 
 .text-color {
@@ -1080,20 +1107,21 @@ a:hover {
 }
 
 .abt-right-thumb {
-  height: 100%;
+  height: 92%;
   /* padding: 20px; */
   background: #f9f9f9;
   box-shadow: 0px 0px 21px 11px rgba(204, 204, 223, 0.2);
 }
 
 .abt-rt-inner {
-  height: 100%;
+  height: 94%;
   display: flex;
   background: url(../images/c_pic.png) center/cover no-repeat;
 }
 
 .abt-rt-image {
   border-radius: 10px;
+  margin-top:13%;
 }
 
 a.expand-video {
@@ -1119,8 +1147,11 @@ a.expand-video:hover {
 
 .about-area {
   overflow: hidden;
-  margin-top: 2%;
+  /* margin-top: 2%; */
 
+}
+.about-area2{
+  margin-top: -25px;
 }
 
 .about-left-content {
@@ -1142,7 +1173,7 @@ a.expand-video:hover {
 }
 
 .about-left-content p {
-  margin-bottom: 20px;
+  /* margin-bottom: -10px; */
 }
 
 .about-left-content a.btn {
@@ -1161,6 +1192,7 @@ a.expand-video:hover {
   box-shadow: 0 -6px 24px rgba(10, 10, 10, 0.09);
 }
 .card {
+<<<<<<< Updated upstream
   display: flex;
   flex-direction: column;
   height: 100%; /* Set a fixed height for the card, adjust as needed */
@@ -1171,6 +1203,25 @@ a.expand-video:hover {
   height: auto; /* Allow the content to expand to fill the card height */
 }
 
+=======
+  /* display: flex;
+  flex-direction: column;*/
+  height: auto;  
+  max-height: 1000px;
+}
+
+.card-body {
+  /* flex-grow: 1;*/
+  height: 330px;  
+}
+.card-text{
+height:155px;
+}
+
+.read-more{
+  /* border-radius: 10px; */
+}
+>>>>>>> Stashed changes
 .btn-round{
   margin-top:auto;
 }
@@ -1507,13 +1558,13 @@ img.tst-bg {
 *=============================================*/
 
 .card-body ul li {
-  font-size: 12px;
+  /* font-size: 12px;
   font-weight: 700;
   letter-spacing: 0;
-  padding-right: 10px;
+  padding-right: 10px; */
 }
 .card-body ul li i {
-  margin-right: 5px;
+  /* margin-right: 5px; */
 }
 
 .blog-content h4 a {
@@ -2087,8 +2138,8 @@ span.post-date i {
 }
 
 .cnt-info h4 {
-  font-size: 24px;
-  font-weight: 600;
+  font-size: 26px;
+  font-weight: bold;
   color: #252525;
   letter-spacing: 0;
   margin-bottom: 20px;
